@@ -133,33 +133,38 @@
       <HintPath>..\..\packages\Xamarin.Forms.2.4.0.280\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\currencylayerLogo.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\currencies.png" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\exchange.png" />
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\icon.png" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\time.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Mobile.Android\Mobile.Android.csproj">
-      <Project>{87EDC5EA-D81E-455C-8A71-C27C841E1789}</Project>
-      <Name>Mobile.Android</Name>
-    </ProjectReference>
+    <BundleResource Include="Resources\tab_about.png" />
+    <BundleResource Include="Resources\tab_about%402x.png" />
+    <BundleResource Include="Resources\tab_about%403x.png" />
+    <BundleResource Include="Resources\tab_feed.png" />
+    <BundleResource Include="Resources\tab_feed%402x.png" />
+    <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\xamarin_logo.png" />
+    <BundleResource Include="Resources\xamarin_logo%402x.png" />
+    <BundleResource Include="Resources\xamarin_logo%403x.png" />
   </ItemGroup>
   <Import Project="..\Mobile\Mobile.projitems" Label="Shared" Condition="Exists('..\Mobile\Mobile.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

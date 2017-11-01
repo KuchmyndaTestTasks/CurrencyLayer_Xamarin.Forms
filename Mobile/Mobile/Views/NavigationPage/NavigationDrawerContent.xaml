@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:clickableListImageCell="clr-namespace:Mobile.UI.CustomControls.ClickableListImageCell;assembly=Mobile.Android"
+             x:Class="Mobile.Views.NavigationPage.NavigationDrawerContent"
+             Title="Master">
+    <StackLayout Orientation="Vertical"
+               VerticalOptions="StartAndExpand">
+        <Grid BackgroundColor="#03A9F4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <Label
+              Grid.Column="1"
+              Grid.Row="2"
+              Text="AppName"
+              Style="{DynamicResource SubtitleStyle}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Orientation="Vertical" Grid.Column="1">
+                <clickableListImageCell:ClickableListImageCell Text="Currency Data" ImageSource="currencies.png"/>
+                <clickableListImageCell:ClickableListImageCell Text="Historical Data"  ImageSource="time.png"/>
+                <clickableListImageCell:ClickableListImageCell Text="Exchange Data"  ImageSource="exchange.png"/>
+                <clickableListImageCell:ClickableListImageCell Text="Setting"  ImageSource="settings.png"/>
+            </StackLayout>
+        </Grid>
+        
+    </StackLayout>
+</ContentPage>
