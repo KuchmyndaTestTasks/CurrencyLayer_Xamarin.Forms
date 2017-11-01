@@ -16,7 +16,6 @@ namespace Mobile.UI.CustomControls.ClickableListImageCell
             InitializeComponent();
             SetClickGesture();
         }
-       
 
         #region Properties
         /// <summary>
