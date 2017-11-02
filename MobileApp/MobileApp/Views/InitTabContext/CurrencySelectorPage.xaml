@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tabsSettingViewModels="clr-namespace:MobileApp.ViewModels.Tabs_SettingViewModels;assembly=MobileApp.Android"
+             xmlns:converters="clr-namespace:MobileApp.Infrastructure.Converters;assembly=MobileApp.Android"
+             x:Class="MobileApp.Views.InitTabContext.CurrencySelectorPage">
+    <ContentPage.BindingContext>
+        <tabsSettingViewModels:CurrencySelectorViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:CurrencyModelsHeaderConverter x:Key='CurrencyModelsHeaderConverter' />
+            <converters:CurrencyModelHeaderConverter x:Key='CurrencyModelHeaderConverter' />
+            <Style TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+            <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}"/>
+            <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="30" Orientation="Vertical" 
+                     VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="CenterAndExpand">
+            <ListView ItemsSource="{Binding SelectedCurrencies,Mode=OneWay, 
+                                        Converter={StaticResource CurrencyModelsHeaderConverter}}"/>
+            <StackLayout Orientation="Horizontal" 
+                         HorizontalOptions="CenterAndExpand"                         
+                         VerticalOptions="CenterAndExpand">
+                <Image WidthRequest="30" 
+                       HeightRequest="30" 
+                       Aspect="AspectFit" 
+                       Source="find.png"/>
+                <Entry WidthRequest="150" Text="{Binding SearchExpression}" HorizontalOptions="Fill"/>
+            </StackLayout>
+            <Label FontSize="10" TextColor="DodgerBlue">After typing in search, a picker filters data automaticaly. Pick item below(to 7 currencies).</Label>
+            <Picker SelectedItem="{Binding SelectedCurrency,
+                                    Converter={StaticResource CurrencyModelHeaderConverter}}" 
+                    ItemsSource="{Binding FilteredCurrencyModels, 
+                                        Mode=OneWay, 
+                                        Converter={StaticResource CurrencyModelsHeaderConverter}}"/>
+            <Button Text="Clear" 
+                    Command="{Binding ClearCommand}"
+                    BackgroundColor="DarkRed"
+                    TextColor="WhiteSmoke"
+                    Margin="5"/>
+            <Button Text="Set" 
+                    Command="{Binding SaveCommand}"
+                    Margin="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,7 @@ namespace MobileApp
 		{
 			InitializeComponent();
 
-			MainPage = new Views.NavigationPage.NavigationDrawer();
+			MainPage = new Views.MainViews.InitPage();
 		}
 
 		protected override void OnStart ()

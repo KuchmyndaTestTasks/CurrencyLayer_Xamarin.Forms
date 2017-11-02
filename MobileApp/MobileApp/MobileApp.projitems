@@ -9,14 +9,29 @@
     <Import_RootNamespace>MobileApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Abstractions\IModelChecker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Parsers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\CommonData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrencyModelHeaderConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrencyModelsHeaderConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\LogColorConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ApiCurrencyModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\CurrencyModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ExchangeModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\CustomControls\ClickableListImageCell\CustomNavigationCell.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NavigationViewModels\NavigationDrawerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NavigationViewModels\NavigationListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\CurrencySelectorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\SavingViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\SettingViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml.cs">
       <SubType>Code</SubType>
@@ -27,13 +42,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\HistoricalDataPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\InitTabContext\CurrencySelectorPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainViews\InitPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\NavigationPage\NavigationDrawer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\NavigationPage\NavigationDrawerList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\StartPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Views\InitTabContext\SettingPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -50,16 +71,12 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\NavigationPage\NavigationDrawer.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\StartPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\InitTabContext\SettingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\NavigationPage\NavigationDrawerList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Abstractions\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Infrastructure\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml">
@@ -75,5 +92,21 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\ExchangeDataPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\InitTabContext\CurrencySelectorPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainViews\InitPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Currencies.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
   </ItemGroup>
 </Project>

@@ -7,10 +7,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
 {
     class NavigationListViewModel : ViewModelBase
     {
-        private readonly NavigationDrawer _drawer;
-        private ICommand _currencyDataRedirector;
-        private ICommand _historicalDataRedirector;
-        private ICommand _exchangeDataRedirector;
+        #region <Constructors>
 
         public NavigationListViewModel()
         {
@@ -19,10 +16,22 @@ namespace MobileApp.ViewModels.NavigationViewModels
             ExchangeDataRedirector = new Command(RedirectToExchData);
             //SettingRedirector = new Command(RedirectToCurrData);
         }
+
         public NavigationListViewModel(NavigationDrawer drawer) : this()
         {
             _drawer = drawer;
         }
+
+        #endregion
+
+        #region <Fields>
+
+        private readonly NavigationDrawer _drawer;
+        private ICommand _currencyDataRedirector;
+        private ICommand _historicalDataRedirector;
+        private ICommand _exchangeDataRedirector;
+
+        #endregion
 
         #region Properties
 
@@ -61,6 +70,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
         #endregion
 
         #region Methods
+
         /// <summary>
         /// Goes to CurrentData page.
         /// </summary>
@@ -68,6 +78,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
         {
             PutPageToNavDrawer(new CurrencyDataPage());
         }
+
         /// <summary>
         /// Goes to ExchangeData page.
         /// </summary>
@@ -75,6 +86,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
         {
             PutPageToNavDrawer(new ExchangeDataPage());
         }
+
         /// <summary>
         /// Goes to HistoricalData page.
         /// </summary>
@@ -82,6 +94,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
         {
             PutPageToNavDrawer(new HistoricalDataPage());
         }
+
         /// <summary>
         /// Putting a page into NavDrawer.
         /// </summary>
@@ -91,6 +104,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
             _drawer.Detail = new NavigationPage(page);
             _drawer.IsPresented = false;
         }
+
         #endregion
     }
 }
