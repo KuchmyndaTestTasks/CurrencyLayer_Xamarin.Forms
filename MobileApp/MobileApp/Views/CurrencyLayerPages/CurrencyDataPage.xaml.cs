@@ -1,4 +1,10 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MobileApp.ViewModels.MainViewModels;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace MobileApp.Views.CurrencyLayerPages
@@ -9,6 +15,7 @@ namespace MobileApp.Views.CurrencyLayerPages
 		public CurrencyDataPage ()
 		{
 			InitializeComponent ();
-		}
+		    BindingContext = new CurrentDataViewModel(CurrencyTable);
+        }
 	}
 }

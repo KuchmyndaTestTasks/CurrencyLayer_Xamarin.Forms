@@ -1,6 +1,5 @@
-﻿using System;
-using MobileApp.Abstractions;
-using MobileApp.Infrastructure;
+﻿using MobileApp.Abstractions;
+using MobileApp.Infrastructure.MainOperations;
 
 namespace MobileApp.ViewModels.Tabs_SettingViewModels
 {
@@ -69,18 +68,19 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
 
         public bool IsValid()
         {
-            var isNull = string.IsNullOrEmpty(ApiKey);
-            if (!isNull)
+            var isCorrect = string.IsNullOrEmpty(ApiKey) || ApiKey.Length!=32;
+            var map = nameof(SettingViewModel);
+            if (!isCorrect)
             {
                 ResetState();
-                IsFinished = true;
+                FinishedMap[map] = true;
             }
             else
             {
-                IsFinished = false;
+                FinishedMap[map] = false;
                 Message = new Logger.MessageLog() {Text = "ApiKey is empty. Fill, please.", Color = Logger.Color.Red};
             }
-            return !isNull;
+            return !isCorrect;
         }
 
         public void ResetState()

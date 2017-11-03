@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows.Input;
+using MobileApp.Global;
 using MobileApp.Infrastructure;
 using MobileApp.Views.NavigationPage;
 using Xamarin.Forms;
@@ -19,7 +21,12 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
 
         private ICommand _saveCommand;
         protected Action Action;
-        protected bool IsFinished;
+
+        protected static readonly Dictionary<string, bool> FinishedMap = new Dictionary<string, bool>
+        {
+            {nameof(SettingViewModel), false},
+            {nameof(CurrencySelectorViewModel), false}
+        };
 
         #endregion
 
@@ -44,7 +51,7 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
             SaveCommand = new Command(() =>
             {
                 Action?.Invoke();
-                if (IsFinished)
+                if (FinishedMap.All(x=>x.Value))
                 {
                     Application.Current.RedirectTo(new NavigationDrawer(), false);
                 }

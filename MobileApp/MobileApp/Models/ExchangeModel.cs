@@ -1,9 +1,12 @@
-﻿namespace MobileApp.Models
+﻿using System;
+
+namespace MobileApp.Models
 {
     /// <inheritdoc />
     /// <summary>
     /// For converting currencies in Exchange Tab.
     /// </summary>
+    [Serializable]
     public class ExchangeModel 
     {
         /// <inheritdoc />

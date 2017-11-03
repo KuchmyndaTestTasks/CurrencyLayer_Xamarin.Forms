@@ -1,24 +1,25 @@
-﻿using MobileApp.Views.NavigationPage;
+﻿using MobileApp.Infrastructure.MainOperations;
+using MobileApp.Views.NavigationPage;
 
 namespace MobileApp.ViewModels.NavigationViewModels
 {
     class NavigationDrawerViewModel : ViewModelBase
     {
-        #region <Fields>
-
-        private NavigationDrawer _masterPage;
-        private NavigationListViewModel _navigationListViewModel;
-
-        #endregion
-
-        #region <Methods>
-
         public NavigationDrawerViewModel(NavigationDrawer masterPage)
         {
             _masterPage = masterPage;
             _navigationListViewModel = new NavigationListViewModel(masterPage);
-            _masterPage.Master = new NavigationDrawerList {BindingContext = _navigationListViewModel};
+            _masterPage.Master = new NavigationDrawerList { BindingContext = _navigationListViewModel };
+            BackgroundDownloader.Start();
         }
+        #region <Fields>
+        
+        private readonly NavigationDrawer _masterPage;
+        private readonly NavigationListViewModel _navigationListViewModel;
+
+        #endregion
+
+        #region <Methods>
 
         public void InitializePage()
         {

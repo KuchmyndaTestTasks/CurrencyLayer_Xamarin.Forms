@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Linq;
+using MobileApp.Global;
 using MobileApp.Infrastructure;
 using MobileApp.Models;
 

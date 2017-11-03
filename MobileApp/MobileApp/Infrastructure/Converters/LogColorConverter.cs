@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
-using MobileApp.Infrastructure;
+using MobileApp.Infrastructure.MainOperations;
 using Xamarin.Forms;
 
-namespace CurrencyLayerApp.Infrastructure.Converters
+namespace MobileApp.Infrastructure.Converters
 {
     class LogColorConverter:IValueConverter
     {

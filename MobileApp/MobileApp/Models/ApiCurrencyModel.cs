@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MobileApp.Models
 {
+    [Serializable]
     public class ApiCurrencyModel
     {
         /// <summary>
@@ -46,7 +50,7 @@ namespace MobileApp.Models
         /// <returns></returns>
         public static ApiCurrencyModel JsonParse(string json)
         {
-            /*JObject jsonObject = JObject.Parse(json);
+            JObject jsonObject = JObject.Parse(json);
             ApiCurrencyModel res = new ApiCurrencyModel {Code = (string) jsonObject["source"]};
             res.Currencies = JsonConvert.DeserializeObject<Dictionary<string, double>>(
                 jsonObject["quotes"]
@@ -54,8 +58,7 @@ namespace MobileApp.Models
                 .Replace($"{res.Code}{res.Code}", "#")
                 .Replace(res.Code, "")  //Early it was a bug with replacing in 'USDUSD'
                 .Replace("#", res.Code));
-            return res;*/
-            return null;
+            return res;
         }
     }
 }

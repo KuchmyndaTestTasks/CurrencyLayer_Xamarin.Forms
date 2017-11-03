@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:tabsSettingViewModels="clr-namespace:MobileApp.ViewModels.Tabs_SettingViewModels;assembly=MobileApp.Android"
-             xmlns:converters="clr-namespace:CurrencyLayerApp.Infrastructure.Converters;assembly=MobileApp.Android"
-             x:Class="MobileApp.Views.InitTabContext.SettingPage">
+             xmlns:converters="clr-namespace:MobileApp.Infrastructure.Converters;assembly=MobileApp.Android"
+             x:Class="MobileApp.Views.InitTabContext.SettingPage"
+             Style="{StaticResource  PageBase}">
     <ContentPage.BindingContext>
         <tabsSettingViewModels:SettingViewModel/>
     </ContentPage.BindingContext>
@@ -15,10 +16,11 @@
             </Style>
             <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}"/>
             <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}"/>
+            <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}"/>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
+        <Frame >
             <StackLayout VerticalOptions="CenterAndExpand" 
                          HorizontalOptions="CenterAndExpand"
                          Orientation="Vertical">
@@ -32,8 +34,9 @@
                 <Label Text="Enter yout API key" />
                 <Label Text="for sync data from server:" />
                 <Entry Margin="0,4,0,0" 
-                       Placeholder="API key" Text="{Binding ApiKey}" />
-                <Label Text="Enter time between calls(s):" />
+                       Placeholder="API key" Text="{Binding ApiKey}"
+                       FontSize="15"/>
+                <Label Text="Enter time between calls(s) in minutes:" />
                 <StackLayout Orientation="Vertical" 
                              VerticalOptions="Center" 
                              HorizontalOptions="Center">
@@ -52,6 +55,6 @@
                 <Label Text="{Binding Message.Text}" 
                        TextColor="{Binding Message.Color,Converter={StaticResource LogColorConverter}}"/>
             </StackLayout>
-        </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

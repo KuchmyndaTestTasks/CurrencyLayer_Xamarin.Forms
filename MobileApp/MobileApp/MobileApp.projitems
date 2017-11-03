@@ -9,37 +9,56 @@
     <Import_RootNamespace>MobileApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Abstractions\IInitializationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Abstractions\DataManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Abstractions\IModelChecker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Global\MainLogMessages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ModelHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Parsers.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\CommonData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\UiHelpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Global\CommonData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrencyModelHeaderConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrencyModelsHeaderConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrentModelCollectionConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\CurrentModelConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\FlagImageConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Converters\LogColorConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Extensions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Logger.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\CurrencyLayerApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\DataManagers\HistoryApiDataManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\DataManagers\HistoryLocalDataManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Global\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\MainOperations\BackgroundDownloader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\MainOperations\Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\MainOperations\Serializator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\MainOperations\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\CurrencyLayerProvider.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\ApiCurrencyModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CurrencyModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\ExchangeModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\CustomControls\ClickableListImageCell\CustomNavigationCell.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModels\CurrencyDataViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModels\ExchangeDataViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NavigationViewModels\NavigationDrawerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NavigationViewModels\NavigationListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\CurrencySelectorViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\SavingViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Tabs_SettingViewModels\SettingViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewModelBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\ConvertingDataPage.xaml.cs">
+      <DependentUpon>ConvertingDataPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\ExchangeDataPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml.cs">
+      <DependentUpon>CurrencyDataPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\HistoricalDataPage.xaml.cs">
+      <DependentUpon>HistoricalDataPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\InitTabContext\CurrencySelectorPage.xaml.cs">
@@ -79,21 +98,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\HistoricalDataPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\ExchangeDataPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\InitTabContext\CurrencySelectorPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -107,6 +111,21 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Currencies.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\CurrencyDataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\HistoricalDataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CurrencyLayerPages\ConvertingDataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

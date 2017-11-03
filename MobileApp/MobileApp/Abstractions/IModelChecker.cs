@@ -1,4 +1,4 @@
-﻿using MobileApp.Infrastructure;
+﻿using MobileApp.Infrastructure.MainOperations;
 
 namespace MobileApp.Abstractions
 {

@@ -1,5 +1,8 @@
-﻿namespace MobileApp.Models
+﻿using System;
+
+namespace MobileApp.Models
 {
+    [Serializable]
     public class CurrencyModel: ExchangeModel
     {
         /// <summary>

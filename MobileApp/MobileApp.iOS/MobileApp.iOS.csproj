@@ -121,6 +121,7 @@
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v8.0\Mono.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -157,6 +158,771 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\af.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\al.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\am.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\an.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\at.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\au.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\aw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\az.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\be.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\br.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\by.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\catalonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\co.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\england.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\er.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\et.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\galicia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\id.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\il.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\im.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\io.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\is.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\je.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\km.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\la.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\li.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\me.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\my.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\na.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\np.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\om.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\py.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\qa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\re.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\scotland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\si.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\so.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\st.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\td.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\th.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\to.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\um.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\uy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\uz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\va.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ws.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\yt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\za.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\zm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\zw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MobileApp.Android\MobileApp.Android.csproj">
+      <Project>{0523CA34-EE43-497A-9E67-DCC26851C80E}</Project>
+      <Name>MobileApp.Android</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\MobileApp\MobileApp.projitems" Label="Shared" Condition="Exists('..\MobileApp\MobileApp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

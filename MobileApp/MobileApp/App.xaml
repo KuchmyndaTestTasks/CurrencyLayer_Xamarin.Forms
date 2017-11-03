@@ -5,19 +5,32 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="PageBase" TargetType="ContentPage">
-                <Setter Property="BackgroundColor" Value="GhostWhite"/>
+                <Setter Property="BackgroundColor" Value="CadetBlue"/>
+            </Style>
+            <Style x:Key="TabPageBase" TargetType="TabbedPage">
+                <Setter Property="BackgroundColor" Value="DodgerBlue"/>
             </Style>
             <Style TargetType="Entry" x:Key="EntryBase" >
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
                 <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="PlaceholderColor" Value="Gainsboro"></Setter>
             </Style>
             <Style TargetType="Label" x:Key="LabelBase" >
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
                 <Setter Property="TextColor" Value="Black"/>
             </Style>
             <Style TargetType="Button" x:Key="ButtonBase" >
                 <Setter Property="BackgroundColor" Value="DodgerBlue"/>
                 <Setter Property="TextColor" Value="WhiteSmoke"/>
+                <Setter Property="WidthRequest" Value="100"/>
+            </Style>
+            <Style TargetType="Frame" x:Key="FrameBase">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="6"/>
+                <Setter Property="Padding" Value="6"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

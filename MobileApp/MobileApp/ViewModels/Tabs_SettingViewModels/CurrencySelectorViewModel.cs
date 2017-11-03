@@ -2,20 +2,22 @@
 using System.Linq;
 using System.Windows.Input;
 using MobileApp.Abstractions;
+using MobileApp.Global;
 using MobileApp.Helpers;
 using MobileApp.Infrastructure;
+using MobileApp.Infrastructure.MainOperations;
 using MobileApp.Models;
 using Xamarin.Forms;
 
 namespace MobileApp.ViewModels.Tabs_SettingViewModels
 {
-    //todo:need fix and ListView Template
     class CurrencySelectorViewModel : SavingViewModel, IModelChecker
     {
         public CurrencySelectorViewModel()
         {
             ClearCommand = new Command(ResetState);
             ResetState();
+            Action = Save;
         }
 
         #region <Fields>
@@ -25,12 +27,21 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
         private CurrencyModel _selectedCurrency;
         private CurrencyModel[] _selectedCurrencies;
         private ICommand _clearCommand;
+        private Logger.MessageLog _message;
 
         #endregion
 
         #region <Properties>
 
-        public Logger.MessageLog Message { get; set; }
+        public Logger.MessageLog Message
+        {
+            get { return _message; }
+            set
+            {
+                _message = value;
+                OnPropertyChanged();
+            }
+        }
 
         public string SearchExpression
         {
@@ -88,11 +99,23 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
 
         #region <Methods>
 
+        private void Save()
+        {
+            if (!IsValid()) return;
+
+            var serializator = new Serializator(CommonData.SelectedCurrenciesFile);
+            serializator.Serialize(SelectedCurrencies);
+        }
+
         private void AddCurrency()
         {
             if (SelectedCurrency == null) return;
             if (SelectedCurrencies == null)
                 SelectedCurrencies = new CurrencyModel[0];
+            else if (SelectedCurrencies.Length > 7)
+            {
+                Message = new Logger.MessageLog {Color = Logger.Color.Red, Text = "Only max 7 currencies"};
+            }
             else
             {
                 var length = SelectedCurrencies.Length;
@@ -103,6 +126,7 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
                     FilteredCurrencyModels.First(x => x.Code == SelectedCurrency.Code);
             }
         }
+
         private void FilterCurrencies()
         {
             FilteredCurrencyModels =
@@ -128,16 +152,31 @@ namespace MobileApp.ViewModels.Tabs_SettingViewModels
                     .ToArray();
             }
         }
+
         public bool IsValid()
         {
-            return true;
+            var res = SelectedCurrencies != null
+                      && SelectedCurrencies.Length > 1
+                      && SelectedCurrencies.Length <= 7;
+            FinishedMap[nameof(CurrencySelectorViewModel)] = res;
+            Message = res
+                ? Logger.MessageLog.Create()
+                : Message = new Logger.MessageLog
+                {
+                    Text = "You selected less/more currencies(need 2-7)",
+                    Color = Logger.Color.Red
+                };
+            return res;
         }
+
         public void ResetState()
         {
             FilterCurrencies();
             SelectedCurrencies = new CurrencyModel[0];
             SearchExpression = string.Empty;
+            Message = Logger.MessageLog.Create();
         }
+
         #endregion
     }
 }

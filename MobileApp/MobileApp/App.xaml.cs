@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using MobileApp.Infrastructure;
+using MobileApp.Infrastructure.MainOperations;
+using Xamarin.Forms;
 
 namespace MobileApp
 {
@@ -7,10 +9,14 @@ namespace MobileApp
 		public App ()
 		{
 			InitializeComponent();
+            
+		    CurrencyLayerApplication.InitPage();
+        }
 
-			MainPage = new Views.MainViews.InitPage();
-		}
-
+	    ~App()
+	    {
+	        BackgroundDownloader.Abort();
+	    }
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

@@ -84,7 +84,7 @@ namespace MobileApp.ViewModels.NavigationViewModels
         /// </summary>
         private void RedirectToExchData()
         {
-            PutPageToNavDrawer(new ExchangeDataPage());
+            PutPageToNavDrawer(new ConvertingDataPage());
         }
 
         /// <summary>
