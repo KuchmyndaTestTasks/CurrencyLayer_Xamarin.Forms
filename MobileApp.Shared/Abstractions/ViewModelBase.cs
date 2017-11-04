@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace MobileApp.Shared.ViewModels
+namespace MobileApp.Shared.Abstractions
 {
     public abstract class ViewModelBase:INotifyPropertyChanged
     {

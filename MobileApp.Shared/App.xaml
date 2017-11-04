@@ -5,10 +5,10 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="PageBase" TargetType="ContentPage">
-                <Setter Property="BackgroundColor" Value="CadetBlue"/>
+                <Setter Property="BackgroundImage" Value="background.png"/>
             </Style>
             <Style x:Key="TabPageBase" TargetType="TabbedPage">
-                <Setter Property="BackgroundColor" Value="DodgerBlue"/>
+                <Setter Property="BackgroundImage" Value="background.png"/>
             </Style>
             <Style TargetType="Entry" x:Key="EntryBase" >
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>

@@ -4,7 +4,9 @@
              xmlns:mainViewModels="clr-namespace:MobileApp.Shared.ViewModels.MainViewModels;assembly=MobileApp.Shared"
              xmlns:converters="clr-namespace:MobileApp.Shared.Infrastructure.Converters;assembly=MobileApp.Shared"
              xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-             x:Class="MobileApp.Shared.Views.CurrencyLayerPages.HistoricalDataPage">
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="MobileApp.Shared.Views.CurrencyLayerPages.HistoricalDataPage"
+             Style="{StaticResource PageBase}">
     <ContentPage.BindingContext>
         <mainViewModels:HistoricalDataViewModel />
     </ContentPage.BindingContext>
@@ -21,52 +23,23 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Frame>
-                <chart:SfChart WidthRequest="300"
-                       HeightRequest="300" 
-                       HorizontalOptions="FillAndExpand" 
-                       VerticalOptions="FillAndExpand">
-                    <chart:SfChart.Legend>
-                        <chart:ChartLegend />
-                    </chart:SfChart.Legend>
-                    <chart:SfChart.Title>
-                        <chart:ChartTitle Text="{Binding Description}" />
-                    </chart:SfChart.Title>
-                    <chart:SfChart.PrimaryAxis>
-                        <chart:CategoryAxis>
-                            <chart:CategoryAxis.Title>
-                                <chart:ChartAxisTitle Text="Day" />
-                            </chart:CategoryAxis.Title>
-                        </chart:CategoryAxis>
-                    </chart:SfChart.PrimaryAxis>
-                    <chart:SfChart.SecondaryAxis>
-                        <chart:NumericalAxis>
-                            <chart:NumericalAxis.Title>
-                                <chart:ChartAxisTitle Text="Rating" />
-                            </chart:NumericalAxis.Title>
-                        </chart:NumericalAxis>
-                    </chart:SfChart.SecondaryAxis>
-                    <chart:SfChart.Series>
-                        <chart:SplineAreaSeries Label="Text" 
-                                                ItemsSource="{Binding Chart}" 
-                                                XBindingPath="Date" 
-                                                YBindingPath="Rating">
-                            <chart:SplineAreaSeries.XAxis>
-                                <chart:CategoryAxis OpposedPosition="True" 
-                                                    ShowMajorGridLines="True" />
-                            </chart:SplineAreaSeries.XAxis>
-                            <chart:SplineAreaSeries.YAxis>
-                                
-                                <chart:NumericalAxis OpposedPosition="True" 
-                                                     ShowMajorGridLines="True" />
-                            </chart:SplineAreaSeries.YAxis>
-                        </chart:SplineAreaSeries>
-                    </chart:SfChart.Series>
-                </chart:SfChart>
-            <StackLayout Orientation="Horizontal">
-                <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" />
-                <Label Text="/" />
-                <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" />
+        <Frame Margin="20">
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                             VerticalOptions="Center" Orientation="Vertical">
+                <ScrollView Orientation="Horizontal"
+                            HeightRequest="500"
+                            >
+                    <forms:ChartView BackgroundColor="White"
+                                     WidthRequest="700" Chart="{Binding Chart}">
+                    </forms:ChartView>
+                </ScrollView>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" 
+                            WidthRequest="100"/>
+                    <Label Text="/" />
+                    <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" 
+                            WidthRequest="100"/>
+                </StackLayout>
             </StackLayout>
         </Frame>
     </ContentPage.Content>

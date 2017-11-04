@@ -8,6 +8,7 @@ using CurrencyLayerApp.Infrastructure.DataManagers;
 using MobileApp.Shared.Abstractions;
 using MobileApp.Shared.Global;
 using MobileApp.Shared.Models;
+using Plugin.Connectivity;
 
 namespace MobileApp.Shared.Infrastructure.MainOperations
 {
@@ -31,26 +32,39 @@ namespace MobileApp.Shared.Infrastructure.MainOperations
 
         #region <Methods>
 
+        public static void Init()
+        {
+            if (CrossConnectivity.IsSupported)
+            {
+                var instance = CrossConnectivity.Current;
+                instance.ConnectivityChanged += (sender, args) =>
+                {
+                    if (args.IsConnected)
+                        Start();
+                    else
+                        Abort();
+                };
+                if(instance.IsConnected)
+                    Start();
+            }
+        }
+
         public static void Download()
         {
-            while (Thread.CurrentThread.IsAlive)
+            while (true)
             {
-                DataManager<Dictionary<DateTime, ApiCurrencyModel>> dataManager = 
-                    new HistoryLocalDataManager();
+                DataManager<Dictionary<DateTime, ApiCurrencyModel>> dataManager =
+                    new HistoryApiDataManager(CurrencyLayerApplication.CurrencyModels);
                 var historicalData = dataManager.Upload();
-                /*if (historicalData == null || !historicalData.Any())
+                if (historicalData == null)
+                    Logger.SetLogMessage(MainLogMessages.EmptyHistory, Logger.Color.Red);
+                else
                 {
-                    dataManager = new HistoryApiDataManager(CurrencyLayerApplication.CurrencyModels); 
-                    historicalData = dataManager.Upload();
-                    if (historicalData == null)
-                        Logger.SetLogMessage(MainLogMessages.EmptyHistory, Logger.Color.Red);
-                    else
-                    {
-                        Task.Run(() => dataManager.Save(historicalData));
-                        OnUpdateEvent();
-                        CurrencyLayerApplication.ThreadSleep(60*Settings.Instance.TimeBetweenCalls);
-                    }
-                }*/
+                    Task.Run(() => dataManager.Save(historicalData));
+                    OnUpdateEvent();
+                    CurrencyLayerApplication.ThreadSleep(60 * Settings.Instance.TimeBetweenCalls);
+                }
+
                 if (historicalData != null)
                 {
                     CurrencyLayerApplication.HistoricalData = historicalData;

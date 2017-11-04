@@ -20,18 +20,21 @@
         <Frame Margin="30">
             <StackLayout Orientation="Vertical">
                 <Label Text="Swipe"/>
-                <ScrollView Orientation="Horizontal"
-                        VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand"
-                        BindingContext="{x:Reference CurrencyTable}"
-                        HeightRequest="{Binding Height}">
-                <Grid x:Name="CurrencyTable" 
-                      RowSpacing="1"
-                      ColumnSpacing="1"
-                      VerticalOptions="CenterAndExpand" 
-                      HorizontalOptions="CenterAndExpand"
-                      BackgroundColor="DarkGray"/>
-            </ScrollView>
+                <Frame Padding="0"
+                       CornerRadius="10">
+                    <ScrollView Orientation="Horizontal"
+                                VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand"
+                                BindingContext="{x:Reference CurrencyTable}"
+                                HeightRequest="{Binding Height}">
+                        <Grid x:Name="CurrencyTable" 
+                              RowSpacing="1"
+                              ColumnSpacing="1"
+                              VerticalOptions="CenterAndExpand" 
+                              HorizontalOptions="CenterAndExpand"
+                              BackgroundColor="Black"/>
+                    </ScrollView>
+                </Frame>
             </StackLayout>
         </Frame>
     </ContentPage.Content>

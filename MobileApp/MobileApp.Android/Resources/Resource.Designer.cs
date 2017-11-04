@@ -26,1715 +26,7 @@ namespace MobileApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Com.Syncfusion.Charts.Resource.Animation.Fadein = global::MobileApp.Droid.Resource.Animation.Fadein;
-			global::Com.Syncfusion.Charts.Resource.Animation.Fadeout = global::MobileApp.Droid.Resource.Animation.Fadeout;
-			global::Com.Syncfusion.Charts.Resource.Animation.Scale_in = global::MobileApp.Droid.Resource.Animation.Scale_in;
-			global::Com.Syncfusion.Charts.Resource.Animation.Scale_out = global::MobileApp.Droid.Resource.Animation.Scale_out;
-			global::Com.Syncfusion.Charts.Resource.Id.axisLayout = global::MobileApp.Droid.Resource.Id.axisLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.bottom_labels = global::MobileApp.Droid.Resource.Id.bottom_labels;
-			global::Com.Syncfusion.Charts.Resource.Id.chartBehaviorLayout = global::MobileApp.Droid.Resource.Id.chartBehaviorLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.content = global::MobileApp.Droid.Resource.Id.content;
-			global::Com.Syncfusion.Charts.Resource.Id.dataMarkerLayout = global::MobileApp.Droid.Resource.Id.dataMarkerLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.gridLineLayout = global::MobileApp.Droid.Resource.Id.gridLineLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.gridLinesLayout = global::MobileApp.Droid.Resource.Id.gridLinesLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.iconView = global::MobileApp.Droid.Resource.Id.iconView;
-			global::Com.Syncfusion.Charts.Resource.Id.label = global::MobileApp.Droid.Resource.Id.label;
-			global::Com.Syncfusion.Charts.Resource.Id.legendHeader = global::MobileApp.Droid.Resource.Id.legendHeader;
-			global::Com.Syncfusion.Charts.Resource.Id.legendItemsLayout = global::MobileApp.Droid.Resource.Id.legendItemsLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.legendLayout = global::MobileApp.Droid.Resource.Id.legendLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.legendScrollView = global::MobileApp.Droid.Resource.Id.legendScrollView;
-			global::Com.Syncfusion.Charts.Resource.Id.legendViewGroup = global::MobileApp.Droid.Resource.Id.legendViewGroup;
-			global::Com.Syncfusion.Charts.Resource.Id.rootLayout = global::MobileApp.Droid.Resource.Id.rootLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.seriesLayout = global::MobileApp.Droid.Resource.Id.seriesLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.stripLinesLayout = global::MobileApp.Droid.Resource.Id.stripLinesLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.technicalIndicatorLayout = global::MobileApp.Droid.Resource.Id.technicalIndicatorLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.thumbLayout = global::MobileApp.Droid.Resource.Id.thumbLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.titleLayout = global::MobileApp.Droid.Resource.Id.titleLayout;
-			global::Com.Syncfusion.Charts.Resource.Id.top_labels = global::MobileApp.Droid.Resource.Id.top_labels;
-			global::Com.Syncfusion.Charts.Resource.Layout.chart_layout = global::MobileApp.Droid.Resource.Layout.chart_layout;
-			global::Com.Syncfusion.Charts.Resource.Layout.chart_legend = global::MobileApp.Droid.Resource.Layout.chart_legend;
-			global::Com.Syncfusion.Charts.Resource.Layout.chart_legend_item = global::MobileApp.Droid.Resource.Layout.chart_legend_item;
-			global::Com.Syncfusion.Charts.Resource.Layout.range_navigator_layout = global::MobileApp.Droid.Resource.Layout.range_navigator_layout;
-			global::Com.Syncfusion.Charts.Resource.String.q = global::MobileApp.Droid.Resource.String.q;
-			global::Com.Syncfusion.Charts.Resource.String.quarter = global::MobileApp.Droid.Resource.String.quarter;
-			global::Com.Syncfusion.Charts.Resource.String.sfchart_close_label = global::MobileApp.Droid.Resource.String.sfchart_close_label;
-			global::Com.Syncfusion.Charts.Resource.String.sfchart_high_label = global::MobileApp.Droid.Resource.String.sfchart_high_label;
-			global::Com.Syncfusion.Charts.Resource.String.sfchart_low_label = global::MobileApp.Droid.Resource.String.sfchart_low_label;
-			global::Com.Syncfusion.Charts.Resource.String.sfchart_open_label = global::MobileApp.Droid.Resource.String.sfchart_open_label;
-			global::Com.Syncfusion.Charts.Resource.String.w = global::MobileApp.Droid.Resource.String.w;
-			global::Com.Syncfusion.Charts.Resource.String.week = global::MobileApp.Droid.Resource.String.week;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_fade_in = global::MobileApp.Droid.Resource.Animation.abc_fade_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_fade_out = global::MobileApp.Droid.Resource.Animation.abc_fade_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MobileApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_popup_enter = global::MobileApp.Droid.Resource.Animation.abc_popup_enter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_popup_exit = global::MobileApp.Droid.Resource.Animation.abc_popup_exit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MobileApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::MobileApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_in_top = global::MobileApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::MobileApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_out_top = global::MobileApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MobileApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MobileApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_fab_in = global::MobileApp.Droid.Resource.Animation.design_fab_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_fab_out = global::MobileApp.Droid.Resource.Animation.design_fab_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_snackbar_in = global::MobileApp.Droid.Resource.Animation.design_snackbar_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_snackbar_out = global::MobileApp.Droid.Resource.Animation.design_snackbar_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadein = global::MobileApp.Droid.Resource.Animation.Fadein;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadeout = global::MobileApp.Droid.Resource.Animation.Fadeout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_in = global::MobileApp.Droid.Resource.Animation.Scale_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_out = global::MobileApp.Droid.Resource.Animation.Scale_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarDivider = global::MobileApp.Droid.Resource.Attribute.actionBarDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::MobileApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::MobileApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarSize = global::MobileApp.Droid.Resource.Attribute.actionBarSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::MobileApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarStyle = global::MobileApp.Droid.Resource.Attribute.actionBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::MobileApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::MobileApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::MobileApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTheme = global::MobileApp.Droid.Resource.Attribute.actionBarTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::MobileApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionButtonStyle = global::MobileApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::MobileApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionLayout = global::MobileApp.Droid.Resource.Attribute.actionLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::MobileApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::MobileApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeBackground = global::MobileApp.Droid.Resource.Attribute.actionModeBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MobileApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::MobileApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MobileApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::MobileApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeStyle = global::MobileApp.Droid.Resource.Attribute.actionModeStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MobileApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MobileApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MobileApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionProviderClass = global::MobileApp.Droid.Resource.Attribute.actionProviderClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionViewClass = global::MobileApp.Droid.Resource.Attribute.actionViewClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::MobileApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MobileApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::MobileApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogStyle = global::MobileApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogTheme = global::MobileApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.allowStacking = global::MobileApp.Droid.Resource.Attribute.allowStacking;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.arrowHeadLength = global::MobileApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.arrowShaftLength = global::MobileApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MobileApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.background = global::MobileApp.Droid.Resource.Attribute.background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundSplit = global::MobileApp.Droid.Resource.Attribute.backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundStacked = global::MobileApp.Droid.Resource.Attribute.backgroundStacked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundTint = global::MobileApp.Droid.Resource.Attribute.backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundTintMode = global::MobileApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.barLength = global::MobileApp.Droid.Resource.Attribute.barLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_hideable = global::MobileApp.Droid.Resource.Attribute.behavior_hideable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::MobileApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::MobileApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.borderWidth = global::MobileApp.Droid.Resource.Attribute.borderWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::MobileApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MobileApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::MobileApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::MobileApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MobileApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MobileApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MobileApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarStyle = global::MobileApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::MobileApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonStyle = global::MobileApp.Droid.Resource.Attribute.buttonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::MobileApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonTint = global::MobileApp.Droid.Resource.Attribute.buttonTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonTintMode = global::MobileApp.Droid.Resource.Attribute.buttonTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::MobileApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardCornerRadius = global::MobileApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardElevation = global::MobileApp.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardMaxElevation = global::MobileApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MobileApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::MobileApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.checkboxStyle = global::MobileApp.Droid.Resource.Attribute.checkboxStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::MobileApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.closeIcon = global::MobileApp.Droid.Resource.Attribute.closeIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.closeItemLayout = global::MobileApp.Droid.Resource.Attribute.closeItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapseContentDescription = global::MobileApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapseIcon = global::MobileApp.Droid.Resource.Attribute.collapseIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::MobileApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MobileApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.color = global::MobileApp.Droid.Resource.Attribute.color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorAccent = global::MobileApp.Droid.Resource.Attribute.colorAccent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorButtonNormal = global::MobileApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlActivated = global::MobileApp.Droid.Resource.Attribute.colorControlActivated;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlHighlight = global::MobileApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlNormal = global::MobileApp.Droid.Resource.Attribute.colorControlNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorPrimary = global::MobileApp.Droid.Resource.Attribute.colorPrimary;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::MobileApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MobileApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.commitIcon = global::MobileApp.Droid.Resource.Attribute.commitIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetEnd = global::MobileApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetLeft = global::MobileApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetRight = global::MobileApp.Droid.Resource.Attribute.contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetStart = global::MobileApp.Droid.Resource.Attribute.contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPadding = global::MobileApp.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::MobileApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::MobileApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingRight = global::MobileApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingTop = global::MobileApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentScrim = global::MobileApp.Droid.Resource.Attribute.contentScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.controlBackground = global::MobileApp.Droid.Resource.Attribute.controlBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterEnabled = global::MobileApp.Droid.Resource.Attribute.counterEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterMaxLength = global::MobileApp.Droid.Resource.Attribute.counterMaxLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MobileApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterTextAppearance = global::MobileApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.customNavigationLayout = global::MobileApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.defaultQueryHint = global::MobileApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::MobileApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dialogTheme = global::MobileApp.Droid.Resource.Attribute.dialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.displayOptions = global::MobileApp.Droid.Resource.Attribute.displayOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.divider = global::MobileApp.Droid.Resource.Attribute.divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerHorizontal = global::MobileApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerPadding = global::MobileApp.Droid.Resource.Attribute.dividerPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerVertical = global::MobileApp.Droid.Resource.Attribute.dividerVertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.drawableSize = global::MobileApp.Droid.Resource.Attribute.drawableSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::MobileApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::MobileApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MobileApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextBackground = global::MobileApp.Droid.Resource.Attribute.editTextBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextColor = global::MobileApp.Droid.Resource.Attribute.editTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextStyle = global::MobileApp.Droid.Resource.Attribute.editTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.elevation = global::MobileApp.Droid.Resource.Attribute.elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.errorEnabled = global::MobileApp.Droid.Resource.Attribute.errorEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.errorTextAppearance = global::MobileApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MobileApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expanded = global::MobileApp.Droid.Resource.Attribute.expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::MobileApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::MobileApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MobileApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MobileApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::MobileApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::MobileApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MobileApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::MobileApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.fabSize = global::MobileApp.Droid.Resource.Attribute.fabSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::MobileApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.gapBetweenBars = global::MobileApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.goIcon = global::MobileApp.Droid.Resource.Attribute.goIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.headerLayout = global::MobileApp.Droid.Resource.Attribute.headerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.height = global::MobileApp.Droid.Resource.Attribute.height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::MobileApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::MobileApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintEnabled = global::MobileApp.Droid.Resource.Attribute.hintEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintTextAppearance = global::MobileApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::MobileApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.homeLayout = global::MobileApp.Droid.Resource.Attribute.homeLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.icon = global::MobileApp.Droid.Resource.Attribute.icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::MobileApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.imageButtonStyle = global::MobileApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::MobileApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.initialActivityCount = global::MobileApp.Droid.Resource.Attribute.initialActivityCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.insetForeground = global::MobileApp.Droid.Resource.Attribute.insetForeground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.isLightTheme = global::MobileApp.Droid.Resource.Attribute.isLightTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemBackground = global::MobileApp.Droid.Resource.Attribute.itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemIconTint = global::MobileApp.Droid.Resource.Attribute.itemIconTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemPadding = global::MobileApp.Droid.Resource.Attribute.itemPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemTextAppearance = global::MobileApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemTextColor = global::MobileApp.Droid.Resource.Attribute.itemTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.keylines = global::MobileApp.Droid.Resource.Attribute.keylines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout = global::MobileApp.Droid.Resource.Attribute.layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layoutManager = global::MobileApp.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_anchor = global::MobileApp.Droid.Resource.Attribute.layout_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::MobileApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_behavior = global::MobileApp.Droid.Resource.Attribute.layout_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_collapseMode = global::MobileApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MobileApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_keyline = global::MobileApp.Droid.Resource.Attribute.layout_keyline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::MobileApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::MobileApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MobileApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::MobileApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listItemLayout = global::MobileApp.Droid.Resource.Attribute.listItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listLayout = global::MobileApp.Droid.Resource.Attribute.listLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::MobileApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::MobileApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MobileApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MobileApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MobileApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MobileApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.logo = global::MobileApp.Droid.Resource.Attribute.logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.logoDescription = global::MobileApp.Droid.Resource.Attribute.logoDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::MobileApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.maxButtonHeight = global::MobileApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::MobileApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::MobileApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::MobileApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.menu = global::MobileApp.Droid.Resource.Attribute.menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::MobileApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationContentDescription = global::MobileApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationIcon = global::MobileApp.Droid.Resource.Attribute.navigationIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationMode = global::MobileApp.Droid.Resource.Attribute.navigationMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.overlapAnchor = global::MobileApp.Droid.Resource.Attribute.overlapAnchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.paddingEnd = global::MobileApp.Droid.Resource.Attribute.paddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.paddingStart = global::MobileApp.Droid.Resource.Attribute.paddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelBackground = global::MobileApp.Droid.Resource.Attribute.panelBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::MobileApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::MobileApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupMenuStyle = global::MobileApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupTheme = global::MobileApp.Droid.Resource.Attribute.popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupWindowStyle = global::MobileApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::MobileApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::MobileApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.progressBarPadding = global::MobileApp.Droid.Resource.Attribute.progressBarPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.progressBarStyle = global::MobileApp.Droid.Resource.Attribute.progressBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.queryBackground = global::MobileApp.Droid.Resource.Attribute.queryBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.queryHint = global::MobileApp.Droid.Resource.Attribute.queryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.radioButtonStyle = global::MobileApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyle = global::MobileApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MobileApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::MobileApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.reverseLayout = global::MobileApp.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.rippleColor = global::MobileApp.Droid.Resource.Attribute.rippleColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchHintIcon = global::MobileApp.Droid.Resource.Attribute.searchHintIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchIcon = global::MobileApp.Droid.Resource.Attribute.searchIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchViewStyle = global::MobileApp.Droid.Resource.Attribute.searchViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.seekBarStyle = global::MobileApp.Droid.Resource.Attribute.seekBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.selectableItemBackground = global::MobileApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MobileApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showAsAction = global::MobileApp.Droid.Resource.Attribute.showAsAction;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showDividers = global::MobileApp.Droid.Resource.Attribute.showDividers;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showText = global::MobileApp.Droid.Resource.Attribute.showText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::MobileApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spanCount = global::MobileApp.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinBars = global::MobileApp.Droid.Resource.Attribute.spinBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MobileApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinnerStyle = global::MobileApp.Droid.Resource.Attribute.spinnerStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.splitTrack = global::MobileApp.Droid.Resource.Attribute.splitTrack;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.srcCompat = global::MobileApp.Droid.Resource.Attribute.srcCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.stackFromEnd = global::MobileApp.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.state_above_anchor = global::MobileApp.Droid.Resource.Attribute.state_above_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.statusBarBackground = global::MobileApp.Droid.Resource.Attribute.statusBarBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.statusBarScrim = global::MobileApp.Droid.Resource.Attribute.statusBarScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.submitBackground = global::MobileApp.Droid.Resource.Attribute.submitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitle = global::MobileApp.Droid.Resource.Attribute.subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::MobileApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextColor = global::MobileApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::MobileApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::MobileApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchMinWidth = global::MobileApp.Droid.Resource.Attribute.switchMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchPadding = global::MobileApp.Droid.Resource.Attribute.switchPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchStyle = global::MobileApp.Droid.Resource.Attribute.switchStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchTextAppearance = global::MobileApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabBackground = global::MobileApp.Droid.Resource.Attribute.tabBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabContentStart = global::MobileApp.Droid.Resource.Attribute.tabContentStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabGravity = global::MobileApp.Droid.Resource.Attribute.tabGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::MobileApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::MobileApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMaxWidth = global::MobileApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMinWidth = global::MobileApp.Droid.Resource.Attribute.tabMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMode = global::MobileApp.Droid.Resource.Attribute.tabMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPadding = global::MobileApp.Droid.Resource.Attribute.tabPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::MobileApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::MobileApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingStart = global::MobileApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingTop = global::MobileApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::MobileApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabTextAppearance = global::MobileApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabTextColor = global::MobileApp.Droid.Resource.Attribute.tabTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAllCaps = global::MobileApp.Droid.Resource.Attribute.textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MobileApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::MobileApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MobileApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MobileApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MobileApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MobileApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MobileApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorError = global::MobileApp.Droid.Resource.Attribute.textColorError;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::MobileApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.theme = global::MobileApp.Droid.Resource.Attribute.theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.thickness = global::MobileApp.Droid.Resource.Attribute.thickness;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.thumbTextPadding = global::MobileApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.title = global::MobileApp.Droid.Resource.Attribute.title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleEnabled = global::MobileApp.Droid.Resource.Attribute.titleEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginBottom = global::MobileApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginEnd = global::MobileApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginStart = global::MobileApp.Droid.Resource.Attribute.titleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginTop = global::MobileApp.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMargins = global::MobileApp.Droid.Resource.Attribute.titleMargins;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextAppearance = global::MobileApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextColor = global::MobileApp.Droid.Resource.Attribute.titleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextStyle = global::MobileApp.Droid.Resource.Attribute.titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarId = global::MobileApp.Droid.Resource.Attribute.toolbarId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MobileApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarStyle = global::MobileApp.Droid.Resource.Attribute.toolbarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.track = global::MobileApp.Droid.Resource.Attribute.track;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.useCompatPadding = global::MobileApp.Droid.Resource.Attribute.useCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.voiceIcon = global::MobileApp.Droid.Resource.Attribute.voiceIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionBar = global::MobileApp.Droid.Resource.Attribute.windowActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::MobileApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::MobileApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::MobileApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::MobileApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::MobileApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::MobileApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::MobileApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::MobileApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowNoTitle = global::MobileApp.Droid.Resource.Attribute.windowNoTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MobileApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MobileApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MobileApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MobileApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MobileApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MobileApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MobileApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_color_highlight_material = global::MobileApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::MobileApp.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MobileApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MobileApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::MobileApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::MobileApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text = global::MobileApp.Droid.Resource.Color.abc_search_url_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::MobileApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::MobileApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::MobileApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::MobileApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::MobileApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.accent_material_dark = global::MobileApp.Droid.Resource.Color.accent_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.accent_material_light = global::MobileApp.Droid.Resource.Color.accent_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_floating_material_dark = global::MobileApp.Droid.Resource.Color.background_floating_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_floating_material_light = global::MobileApp.Droid.Resource.Color.background_floating_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_material_dark = global::MobileApp.Droid.Resource.Color.background_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_material_light = global::MobileApp.Droid.Resource.Color.background_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MobileApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MobileApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MobileApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MobileApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::MobileApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_material_light = global::MobileApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.button_material_dark = global::MobileApp.Droid.Resource.Color.button_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.button_material_light = global::MobileApp.Droid.Resource.Color.button_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_dark_background = global::MobileApp.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_light_background = global::MobileApp.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::MobileApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::MobileApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::MobileApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::MobileApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::MobileApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MobileApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MobileApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MobileApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MobileApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_snackbar_background_color = global::MobileApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_textinput_error_color_dark = global::MobileApp.Droid.Resource.Color.design_textinput_error_color_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_textinput_error_color_light = global::MobileApp.Droid.Resource.Color.design_textinput_error_color_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MobileApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MobileApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::MobileApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_material_light = global::MobileApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.foreground_material_dark = global::MobileApp.Droid.Resource.Color.foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.foreground_material_light = global::MobileApp.Droid.Resource.Color.foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::MobileApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.highlighted_text_material_light = global::MobileApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_800 = global::MobileApp.Droid.Resource.Color.material_blue_grey_800;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_900 = global::MobileApp.Droid.Resource.Color.material_blue_grey_900;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_950 = global::MobileApp.Droid.Resource.Color.material_blue_grey_950;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_deep_teal_200 = global::MobileApp.Droid.Resource.Color.material_deep_teal_200;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_deep_teal_500 = global::MobileApp.Droid.Resource.Color.material_deep_teal_500;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_100 = global::MobileApp.Droid.Resource.Color.material_grey_100;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_300 = global::MobileApp.Droid.Resource.Color.material_grey_300;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_50 = global::MobileApp.Droid.Resource.Color.material_grey_50;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_600 = global::MobileApp.Droid.Resource.Color.material_grey_600;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_800 = global::MobileApp.Droid.Resource.Color.material_grey_800;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_850 = global::MobileApp.Droid.Resource.Color.material_grey_850;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_900 = global::MobileApp.Droid.Resource.Color.material_grey_900;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_dark_material_dark = global::MobileApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_dark_material_light = global::MobileApp.Droid.Resource.Color.primary_dark_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_material_dark = global::MobileApp.Droid.Resource.Color.primary_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_material_light = global::MobileApp.Droid.Resource.Color.primary_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::MobileApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_default_material_light = global::MobileApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::MobileApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::MobileApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.ripple_material_dark = global::MobileApp.Droid.Resource.Color.ripple_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.ripple_material_light = global::MobileApp.Droid.Resource.Color.ripple_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::MobileApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::MobileApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MobileApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::MobileApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MobileApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MobileApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::MobileApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_material_light = global::MobileApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MobileApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::MobileApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MobileApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MobileApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MobileApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MobileApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MobileApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MobileApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MobileApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MobileApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MobileApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MobileApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::MobileApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::MobileApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::MobileApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MobileApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MobileApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MobileApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MobileApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MobileApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MobileApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::MobileApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MobileApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MobileApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MobileApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MobileApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MobileApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MobileApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MobileApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MobileApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MobileApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::MobileApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MobileApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MobileApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MobileApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MobileApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MobileApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MobileApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_switch_padding = global::MobileApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MobileApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::MobileApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MobileApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MobileApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::MobileApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_default_radius = global::MobileApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::MobileApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MobileApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_border_width = global::MobileApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_elevation = global::MobileApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_image_size = global::MobileApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::MobileApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::MobileApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MobileApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::MobileApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::MobileApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::MobileApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::MobileApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MobileApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MobileApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MobileApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MobileApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::MobileApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MobileApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::MobileApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::MobileApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MobileApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MobileApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MobileApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::MobileApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_max_width = global::MobileApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MobileApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_text_size = global::MobileApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::MobileApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MobileApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::MobileApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MobileApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MobileApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::MobileApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MobileApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MobileApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MobileApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MobileApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MobileApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MobileApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MobileApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::MobileApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::MobileApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::MobileApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::MobileApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_subtext_size = global::MobileApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MobileApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::MobileApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::MobileApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MobileApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MobileApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::MobileApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MobileApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::MobileApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MobileApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MobileApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MobileApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MobileApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MobileApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::MobileApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_control_background_material = global::MobileApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::MobileApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MobileApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MobileApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MobileApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MobileApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MobileApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::MobileApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::MobileApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MobileApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MobileApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MobileApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MobileApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MobileApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MobileApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MobileApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MobileApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MobileApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MobileApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MobileApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::MobileApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MobileApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MobileApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::MobileApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::MobileApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::MobileApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MobileApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::MobileApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.design_fab_background = global::MobileApp.Droid.Resource.Drawable.design_fab_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.design_snackbar_background = global::MobileApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.ic_audiotrack_light = global::MobileApp.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::MobileApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::MobileApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::MobileApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action0 = global::MobileApp.Droid.Resource.Id.action0;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar = global::MobileApp.Droid.Resource.Id.action_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_activity_content = global::MobileApp.Droid.Resource.Id.action_bar_activity_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_container = global::MobileApp.Droid.Resource.Id.action_bar_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_root = global::MobileApp.Droid.Resource.Id.action_bar_root;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_spinner = global::MobileApp.Droid.Resource.Id.action_bar_spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_subtitle = global::MobileApp.Droid.Resource.Id.action_bar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_title = global::MobileApp.Droid.Resource.Id.action_bar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_context_bar = global::MobileApp.Droid.Resource.Id.action_context_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_divider = global::MobileApp.Droid.Resource.Id.action_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_menu_divider = global::MobileApp.Droid.Resource.Id.action_menu_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_menu_presenter = global::MobileApp.Droid.Resource.Id.action_menu_presenter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_bar = global::MobileApp.Droid.Resource.Id.action_mode_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_bar_stub = global::MobileApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_close_button = global::MobileApp.Droid.Resource.Id.action_mode_close_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.activity_chooser_view_content = global::MobileApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.alertTitle = global::MobileApp.Droid.Resource.Id.alertTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.always = global::MobileApp.Droid.Resource.Id.always;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.axisLayout = global::MobileApp.Droid.Resource.Id.axisLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.beginning = global::MobileApp.Droid.Resource.Id.beginning;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom = global::MobileApp.Droid.Resource.Id.bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom_labels = global::MobileApp.Droid.Resource.Id.bottom_labels;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.buttonPanel = global::MobileApp.Droid.Resource.Id.buttonPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.cancel_action = global::MobileApp.Droid.Resource.Id.cancel_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center = global::MobileApp.Droid.Resource.Id.center;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center_horizontal = global::MobileApp.Droid.Resource.Id.center_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center_vertical = global::MobileApp.Droid.Resource.Id.center_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartBehaviorLayout = global::MobileApp.Droid.Resource.Id.chartBehaviorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.checkbox = global::MobileApp.Droid.Resource.Id.checkbox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chronometer = global::MobileApp.Droid.Resource.Id.chronometer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.clip_horizontal = global::MobileApp.Droid.Resource.Id.clip_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.clip_vertical = global::MobileApp.Droid.Resource.Id.clip_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.collapseActionView = global::MobileApp.Droid.Resource.Id.collapseActionView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.content = global::MobileApp.Droid.Resource.Id.content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.contentPanel = global::MobileApp.Droid.Resource.Id.contentPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.custom = global::MobileApp.Droid.Resource.Id.custom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.customPanel = global::MobileApp.Droid.Resource.Id.customPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.dataMarkerLayout = global::MobileApp.Droid.Resource.Id.dataMarkerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.decor_content_parent = global::MobileApp.Droid.Resource.Id.decor_content_parent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.default_activity_button = global::MobileApp.Droid.Resource.Id.default_activity_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_bottom_sheet = global::MobileApp.Droid.Resource.Id.design_bottom_sheet;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_action_area = global::MobileApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::MobileApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_text = global::MobileApp.Droid.Resource.Id.design_menu_item_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_navigation_view = global::MobileApp.Droid.Resource.Id.design_navigation_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.disableHome = global::MobileApp.Droid.Resource.Id.disableHome;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.edit_query = global::MobileApp.Droid.Resource.Id.edit_query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.end = global::MobileApp.Droid.Resource.Id.end;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.end_padder = global::MobileApp.Droid.Resource.Id.end_padder;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.enterAlways = global::MobileApp.Droid.Resource.Id.enterAlways;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::MobileApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.exitUntilCollapsed = global::MobileApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.expand_activities_button = global::MobileApp.Droid.Resource.Id.expand_activities_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.expanded_menu = global::MobileApp.Droid.Resource.Id.expanded_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill = global::MobileApp.Droid.Resource.Id.fill;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill_horizontal = global::MobileApp.Droid.Resource.Id.fill_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill_vertical = global::MobileApp.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.@fixed = global::MobileApp.Droid.Resource.Id.@fixed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLineLayout = global::MobileApp.Droid.Resource.Id.gridLineLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLinesLayout = global::MobileApp.Droid.Resource.Id.gridLinesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.home = global::MobileApp.Droid.Resource.Id.home;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.homeAsUp = global::MobileApp.Droid.Resource.Id.homeAsUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.icon = global::MobileApp.Droid.Resource.Id.icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.iconView = global::MobileApp.Droid.Resource.Id.iconView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.ifRoom = global::MobileApp.Droid.Resource.Id.ifRoom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.image = global::MobileApp.Droid.Resource.Id.image;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.info = global::MobileApp.Droid.Resource.Id.info;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MobileApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.label = global::MobileApp.Droid.Resource.Id.label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.left = global::MobileApp.Droid.Resource.Id.left;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendHeader = global::MobileApp.Droid.Resource.Id.legendHeader;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendItemsLayout = global::MobileApp.Droid.Resource.Id.legendItemsLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendLayout = global::MobileApp.Droid.Resource.Id.legendLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendScrollView = global::MobileApp.Droid.Resource.Id.legendScrollView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendViewGroup = global::MobileApp.Droid.Resource.Id.legendViewGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.line1 = global::MobileApp.Droid.Resource.Id.line1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.line3 = global::MobileApp.Droid.Resource.Id.line3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.listMode = global::MobileApp.Droid.Resource.Id.listMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.list_item = global::MobileApp.Droid.Resource.Id.list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.media_actions = global::MobileApp.Droid.Resource.Id.media_actions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.middle = global::MobileApp.Droid.Resource.Id.middle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mini = global::MobileApp.Droid.Resource.Id.mini;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_art = global::MobileApp.Droid.Resource.Id.mr_art;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_list = global::MobileApp.Droid.Resource.Id.mr_chooser_list;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_desc = global::MobileApp.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_icon = global::MobileApp.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_name = global::MobileApp.Droid.Resource.Id.mr_chooser_route_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_close = global::MobileApp.Droid.Resource.Id.mr_close;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_divider = global::MobileApp.Droid.Resource.Id.mr_control_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_subtitle = global::MobileApp.Droid.Resource.Id.mr_control_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_title = global::MobileApp.Droid.Resource.Id.mr_control_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_title_container = global::MobileApp.Droid.Resource.Id.mr_control_title_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_custom_control = global::MobileApp.Droid.Resource.Id.mr_custom_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_default_control = global::MobileApp.Droid.Resource.Id.mr_default_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_dialog_area = global::MobileApp.Droid.Resource.Id.mr_dialog_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_expandable_area = global::MobileApp.Droid.Resource.Id.mr_expandable_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_group_expand_collapse = global::MobileApp.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_media_main_control = global::MobileApp.Droid.Resource.Id.mr_media_main_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_name = global::MobileApp.Droid.Resource.Id.mr_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_playback_control = global::MobileApp.Droid.Resource.Id.mr_playback_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_title_bar = global::MobileApp.Droid.Resource.Id.mr_title_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_control = global::MobileApp.Droid.Resource.Id.mr_volume_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_group_list = global::MobileApp.Droid.Resource.Id.mr_volume_group_list;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_item_icon = global::MobileApp.Droid.Resource.Id.mr_volume_item_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_slider = global::MobileApp.Droid.Resource.Id.mr_volume_slider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.multiply = global::MobileApp.Droid.Resource.Id.multiply;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.navigation_header_container = global::MobileApp.Droid.Resource.Id.navigation_header_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.never = global::MobileApp.Droid.Resource.Id.never;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.none = global::MobileApp.Droid.Resource.Id.none;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.normal = global::MobileApp.Droid.Resource.Id.normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.parallax = global::MobileApp.Droid.Resource.Id.parallax;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.parentPanel = global::MobileApp.Droid.Resource.Id.parentPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.pin = global::MobileApp.Droid.Resource.Id.pin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.progress_circular = global::MobileApp.Droid.Resource.Id.progress_circular;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.progress_horizontal = global::MobileApp.Droid.Resource.Id.progress_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.radio = global::MobileApp.Droid.Resource.Id.radio;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.right = global::MobileApp.Droid.Resource.Id.right;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.rootLayout = global::MobileApp.Droid.Resource.Id.rootLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.screen = global::MobileApp.Droid.Resource.Id.screen;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scroll = global::MobileApp.Droid.Resource.Id.scroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollIndicatorDown = global::MobileApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollIndicatorUp = global::MobileApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollView = global::MobileApp.Droid.Resource.Id.scrollView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollable = global::MobileApp.Droid.Resource.Id.scrollable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_badge = global::MobileApp.Droid.Resource.Id.search_badge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_bar = global::MobileApp.Droid.Resource.Id.search_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_button = global::MobileApp.Droid.Resource.Id.search_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_close_btn = global::MobileApp.Droid.Resource.Id.search_close_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_edit_frame = global::MobileApp.Droid.Resource.Id.search_edit_frame;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_go_btn = global::MobileApp.Droid.Resource.Id.search_go_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_mag_icon = global::MobileApp.Droid.Resource.Id.search_mag_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_plate = global::MobileApp.Droid.Resource.Id.search_plate;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_src_text = global::MobileApp.Droid.Resource.Id.search_src_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_voice_btn = global::MobileApp.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.select_dialog_listview = global::MobileApp.Droid.Resource.Id.select_dialog_listview;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.seriesLayout = global::MobileApp.Droid.Resource.Id.seriesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.shortcut = global::MobileApp.Droid.Resource.Id.shortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showCustom = global::MobileApp.Droid.Resource.Id.showCustom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showHome = global::MobileApp.Droid.Resource.Id.showHome;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showTitle = global::MobileApp.Droid.Resource.Id.showTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snackbar_action = global::MobileApp.Droid.Resource.Id.snackbar_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snackbar_text = global::MobileApp.Droid.Resource.Id.snackbar_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snap = global::MobileApp.Droid.Resource.Id.snap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.spacer = global::MobileApp.Droid.Resource.Id.spacer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.split_action_bar = global::MobileApp.Droid.Resource.Id.split_action_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_atop = global::MobileApp.Droid.Resource.Id.src_atop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_in = global::MobileApp.Droid.Resource.Id.src_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_over = global::MobileApp.Droid.Resource.Id.src_over;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.start = global::MobileApp.Droid.Resource.Id.start;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::MobileApp.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.stripLinesLayout = global::MobileApp.Droid.Resource.Id.stripLinesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.submit_area = global::MobileApp.Droid.Resource.Id.submit_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.tabMode = global::MobileApp.Droid.Resource.Id.tabMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.technicalIndicatorLayout = global::MobileApp.Droid.Resource.Id.technicalIndicatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.text = global::MobileApp.Droid.Resource.Id.text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.text2 = global::MobileApp.Droid.Resource.Id.text2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.textSpacerNoButtons = global::MobileApp.Droid.Resource.Id.textSpacerNoButtons;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.thumbLayout = global::MobileApp.Droid.Resource.Id.thumbLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.time = global::MobileApp.Droid.Resource.Id.time;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.title = global::MobileApp.Droid.Resource.Id.title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.titleLayout = global::MobileApp.Droid.Resource.Id.titleLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.title_template = global::MobileApp.Droid.Resource.Id.title_template;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top = global::MobileApp.Droid.Resource.Id.top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.topPanel = global::MobileApp.Droid.Resource.Id.topPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top_labels = global::MobileApp.Droid.Resource.Id.top_labels;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.touch_outside = global::MobileApp.Droid.Resource.Id.touch_outside;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.up = global::MobileApp.Droid.Resource.Id.up;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.useLogo = global::MobileApp.Droid.Resource.Id.useLogo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.view_offset_helper = global::MobileApp.Droid.Resource.Id.view_offset_helper;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.volume_item_container = global::MobileApp.Droid.Resource.Id.volume_item_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.withText = global::MobileApp.Droid.Resource.Id.withText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.wrap_content = global::MobileApp.Droid.Resource.Id.wrap_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MobileApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::MobileApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MobileApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::MobileApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MobileApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MobileApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MobileApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MobileApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MobileApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::MobileApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MobileApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::MobileApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::MobileApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MobileApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::MobileApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::MobileApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::MobileApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MobileApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::MobileApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MobileApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MobileApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::MobileApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::MobileApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::MobileApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MobileApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::MobileApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::MobileApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::MobileApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MobileApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_content_include = global::MobileApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_simple = global::MobileApp.Droid.Resource.Layout.abc_screen_simple;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MobileApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::MobileApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MobileApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_search_view = global::MobileApp.Droid.Resource.Layout.abc_search_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::MobileApp.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_layout = global::MobileApp.Droid.Resource.Layout.chart_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend = global::MobileApp.Droid.Resource.Layout.chart_legend;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend_item = global::MobileApp.Droid.Resource.Layout.chart_legend_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MobileApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_snackbar = global::MobileApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::MobileApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::MobileApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_tab_text = global::MobileApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::MobileApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item = global::MobileApp.Droid.Resource.Layout.design_navigation_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_header = global::MobileApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::MobileApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::MobileApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_menu = global::MobileApp.Droid.Resource.Layout.design_navigation_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::MobileApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_chooser_dialog = global::MobileApp.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_chooser_list_item = global::MobileApp.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::MobileApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_controller_volume_item = global::MobileApp.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_playback_control = global::MobileApp.Droid.Resource.Layout.mr_playback_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_volume_control = global::MobileApp.Droid.Resource.Layout.mr_volume_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_media_action = global::MobileApp.Droid.Resource.Layout.notification_media_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::MobileApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_big_media = global::MobileApp.Droid.Resource.Layout.notification_template_big_media;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::MobileApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_media = global::MobileApp.Droid.Resource.Layout.notification_template_media;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::MobileApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_part_time = global::MobileApp.Droid.Resource.Layout.notification_template_part_time;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.range_navigator_layout = global::MobileApp.Droid.Resource.Layout.range_navigator_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_item_material = global::MobileApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::MobileApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MobileApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MobileApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_home_description = global::MobileApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_home_description_format = global::MobileApp.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::MobileApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_up_description = global::MobileApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::MobileApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_mode_done = global::MobileApp.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MobileApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::MobileApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_capital_off = global::MobileApp.Droid.Resource.String.abc_capital_off;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_capital_on = global::MobileApp.Droid.Resource.String.abc_capital_on;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_search_hint = global::MobileApp.Droid.Resource.String.abc_search_hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_clear = global::MobileApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_query = global::MobileApp.Droid.Resource.String.abc_searchview_description_query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_search = global::MobileApp.Droid.Resource.String.abc_searchview_description_search;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_submit = global::MobileApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_voice = global::MobileApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::MobileApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MobileApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::MobileApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::MobileApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.bottom_sheet_behavior = global::MobileApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.character_counter_pattern = global::MobileApp.Droid.Resource.String.character_counter_pattern;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_button_content_description = global::MobileApp.Droid.Resource.String.mr_button_content_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_chooser_searching = global::MobileApp.Droid.Resource.String.mr_chooser_searching;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_chooser_title = global::MobileApp.Droid.Resource.String.mr_chooser_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_casting_screen = global::MobileApp.Droid.Resource.String.mr_controller_casting_screen;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_close_description = global::MobileApp.Droid.Resource.String.mr_controller_close_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_collapse_group = global::MobileApp.Droid.Resource.String.mr_controller_collapse_group;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_disconnect = global::MobileApp.Droid.Resource.String.mr_controller_disconnect;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_expand_group = global::MobileApp.Droid.Resource.String.mr_controller_expand_group;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_no_info_available = global::MobileApp.Droid.Resource.String.mr_controller_no_info_available;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_no_media_selected = global::MobileApp.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_pause = global::MobileApp.Droid.Resource.String.mr_controller_pause;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_play = global::MobileApp.Droid.Resource.String.mr_controller_play;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_stop = global::MobileApp.Droid.Resource.String.mr_controller_stop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_system_route_name = global::MobileApp.Droid.Resource.String.mr_system_route_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_user_route_category_name = global::MobileApp.Droid.Resource.String.mr_user_route_category_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.q = global::MobileApp.Droid.Resource.String.q;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.quarter = global::MobileApp.Droid.Resource.String.quarter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_close_label = global::MobileApp.Droid.Resource.String.sfchart_close_label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_high_label = global::MobileApp.Droid.Resource.String.sfchart_high_label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_low_label = global::MobileApp.Droid.Resource.String.sfchart_low_label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_open_label = global::MobileApp.Droid.Resource.String.sfchart_open_label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::MobileApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::MobileApp.Droid.Resource.String.w;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::MobileApp.Droid.Resource.String.week;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::MobileApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MobileApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MobileApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MobileApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MobileApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MobileApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_CardView = global::MobileApp.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MobileApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MobileApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MobileApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MobileApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MobileApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MobileApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MobileApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MobileApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MobileApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MobileApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MobileApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MobileApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MobileApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MobileApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MobileApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MobileApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MobileApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView = global::MobileApp.Droid.Resource.Style.CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView_Dark = global::MobileApp.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView_Light = global::MobileApp.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_AppCompat = global::MobileApp.Droid.Resource.Style.Platform_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MobileApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MobileApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V11_AppCompat = global::MobileApp.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V14_AppCompat = global::MobileApp.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MobileApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MobileApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MobileApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MobileApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MobileApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MobileApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::MobileApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::MobileApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::MobileApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::MobileApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::MobileApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MobileApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MobileApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MobileApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat = global::MobileApp.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MobileApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design = global::MobileApp.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MobileApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light = global::MobileApp.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MobileApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MobileApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::MobileApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter = global::MobileApp.Droid.Resource.Style.Theme_MediaRouter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_Light = global::MobileApp.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MobileApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MobileApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MobileApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MobileApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MobileApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MobileApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MobileApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MobileApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MobileApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MobileApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MobileApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::MobileApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MobileApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::MobileApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MobileApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::MobileApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::MobileApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MobileApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MobileApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MobileApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar = global::MobileApp.Droid.Resource.Styleable.ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_background = global::MobileApp.Droid.Resource.Styleable.ActionBar_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MobileApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MobileApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MobileApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MobileApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MobileApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MobileApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MobileApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::MobileApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_divider = global::MobileApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::MobileApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_height = global::MobileApp.Droid.Resource.Styleable.ActionBar_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MobileApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MobileApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::MobileApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_icon = global::MobileApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MobileApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::MobileApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_logo = global::MobileApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::MobileApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::MobileApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MobileApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MobileApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::MobileApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MobileApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_title = global::MobileApp.Droid.Resource.Styleable.ActionBar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MobileApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBarLayout = global::MobileApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MobileApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::MobileApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MobileApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuView = global::MobileApp.Droid.Resource.Styleable.ActionMenuView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode = global::MobileApp.Droid.Resource.Styleable.ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_background = global::MobileApp.Droid.Resource.Styleable.ActionMode_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MobileApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MobileApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_height = global::MobileApp.Droid.Resource.Styleable.ActionMode_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MobileApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MobileApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView = global::MobileApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MobileApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MobileApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog = global::MobileApp.Droid.Resource.Styleable.AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MobileApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout = global::MobileApp.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::MobileApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::MobileApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::MobileApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView = global::MobileApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MobileApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MobileApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView = global::MobileApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MobileApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MobileApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MobileApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::MobileApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MobileApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView = global::MobileApp.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::MobileApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::MobileApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MobileApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MobileApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::MobileApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MobileApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MobileApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MobileApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::MobileApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MobileApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MobileApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MobileApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MobileApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MobileApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton = global::MobileApp.Droid.Resource.Styleable.CompoundButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::MobileApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MobileApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MobileApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::MobileApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MobileApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MobileApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme = global::MobileApp.Droid.Resource.Styleable.DesignTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MobileApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MobileApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_textColorError = global::MobileApp.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MobileApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MobileApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::MobileApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MobileApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MobileApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MobileApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MobileApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow = global::MobileApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MobileApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MobileApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton = global::MobileApp.Droid.Resource.Styleable.MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::MobileApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::MobileApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MobileApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup = global::MobileApp.Droid.Resource.Styleable.MenuGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::MobileApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem = global::MobileApp.Droid.Resource.Styleable.MenuItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::MobileApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MobileApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MobileApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::MobileApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::MobileApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView = global::MobileApp.Droid.Resource.Styleable.MenuView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MobileApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MobileApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MobileApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MobileApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MobileApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MobileApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MobileApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MobileApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView = global::MobileApp.Droid.Resource.Styleable.NavigationView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::MobileApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MobileApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MobileApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::MobileApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::MobileApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::MobileApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MobileApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MobileApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MobileApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_menu = global::MobileApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow = global::MobileApp.Droid.Resource.Styleable.PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MobileApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MobileApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MobileApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MobileApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView = global::MobileApp.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MobileApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MobileApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MobileApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::MobileApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MobileApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MobileApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MobileApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView = global::MobileApp.Droid.Resource.Styleable.SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::MobileApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MobileApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::MobileApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MobileApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MobileApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MobileApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_layout = global::MobileApp.Droid.Resource.Styleable.SearchView_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::MobileApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::MobileApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::MobileApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MobileApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::MobileApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout = global::MobileApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MobileApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MobileApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MobileApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner = global::MobileApp.Droid.Resource.Styleable.Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MobileApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::MobileApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MobileApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::MobileApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::MobileApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat = global::MobileApp.Droid.Resource.Styleable.SwitchCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::MobileApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem = global::MobileApp.Droid.Resource.Styleable.TabItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::MobileApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::MobileApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_text = global::MobileApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout = global::MobileApp.Droid.Resource.Styleable.TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MobileApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance = global::MobileApp.Droid.Resource.Styleable.TextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MobileApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MobileApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout = global::MobileApp.Droid.Resource.Styleable.TextInputLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MobileApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar = global::MobileApp.Droid.Resource.Styleable.Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::MobileApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MobileApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MobileApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MobileApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MobileApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MobileApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MobileApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MobileApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_logo = global::MobileApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::MobileApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MobileApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MobileApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MobileApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::MobileApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::MobileApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MobileApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MobileApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_title = global::MobileApp.Droid.Resource.Styleable.Toolbar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MobileApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View = global::MobileApp.Droid.Resource.Styleable.View;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_android_focusable = global::MobileApp.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_android_theme = global::MobileApp.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_paddingEnd = global::MobileApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_paddingStart = global::MobileApp.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_theme = global::MobileApp.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::MobileApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MobileApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MobileApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MobileApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat = global::MobileApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MobileApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MobileApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MobileApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Microcharts.Droid.Resource.String.library_name = global::MobileApp.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MobileApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -1788,18 +80,6 @@ namespace MobileApp.Droid
 			
 			// aapt resource value: 0x7f04000f
 			public const int design_snackbar_out = 2130968591;
-			
-			// aapt resource value: 0x7f040010
-			public const int Fadein = 2130968592;
-			
-			// aapt resource value: 0x7f040011
-			public const int Fadeout = 2130968593;
-			
-			// aapt resource value: 0x7f040012
-			public const int Scale_in = 2130968594;
-			
-			// aapt resource value: 0x7f040013
-			public const int Scale_out = 2130968595;
 			
 			static Animation()
 			{
@@ -5282,8 +3562,8 @@ namespace MobileApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0800ae
-			public const int action0 = 2131230894;
+			// aapt resource value: 0x7f08009e
+			public const int action0 = 2131230878;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -5306,17 +3586,17 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int action_container = 2131230891;
+			// aapt resource value: 0x7f08009b
+			public const int action_container = 2131230875;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int action_divider = 2131230898;
+			// aapt resource value: 0x7f0800a2
+			public const int action_divider = 2131230882;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int action_image = 2131230892;
+			// aapt resource value: 0x7f08009c
+			public const int action_image = 2131230876;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -5333,11 +3613,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int action_text = 2131230893;
+			// aapt resource value: 0x7f08009d
+			public const int action_text = 2131230877;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int actions = 2131230907;
+			// aapt resource value: 0x7f0800ab
+			public const int actions = 2131230891;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
@@ -5357,23 +3637,17 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f08002f
 			public const int auto = 2131230767;
 			
-			// aapt resource value: 0x7f08007a
-			public const int axisLayout = 2131230842;
-			
 			// aapt resource value: 0x7f080020
 			public const int beginning = 2131230752;
 			
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int bottom_labels = 2131230915;
-			
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f0800af
-			public const int cancel_action = 2131230895;
+			// aapt resource value: 0x7f08009f
+			public const int cancel_action = 2131230879;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -5384,14 +3658,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080032
 			public const int center_vertical = 2131230770;
 			
-			// aapt resource value: 0x7f08007c
-			public const int chartBehaviorLayout = 2131230844;
-			
 			// aapt resource value: 0x7f08005b
 			public const int checkbox = 2131230811;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int chronometer = 2131230903;
+			// aapt resource value: 0x7f0800a7
+			public const int chronometer = 2131230887;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -5402,17 +3673,14 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080024
 			public const int collapseActionView = 2131230756;
 			
-			// aapt resource value: 0x7f080085
-			public const int container = 2131230853;
-			
-			// aapt resource value: 0x7f0800c4
-			public const int content = 2131230916;
+			// aapt resource value: 0x7f080075
+			public const int container = 2131230837;
 			
 			// aapt resource value: 0x7f08004e
 			public const int contentPanel = 2131230798;
 			
-			// aapt resource value: 0x7f080086
-			public const int coordinator = 2131230854;
+			// aapt resource value: 0x7f080076
+			public const int coordinator = 2131230838;
 			
 			// aapt resource value: 0x7f080055
 			public const int custom = 2131230805;
@@ -5420,29 +3688,26 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080054
 			public const int customPanel = 2131230804;
 			
-			// aapt resource value: 0x7f080078
-			public const int dataMarkerLayout = 2131230840;
-			
 			// aapt resource value: 0x7f080062
 			public const int decor_content_parent = 2131230818;
 			
 			// aapt resource value: 0x7f080047
 			public const int default_activity_button = 2131230791;
 			
-			// aapt resource value: 0x7f080088
-			public const int design_bottom_sheet = 2131230856;
+			// aapt resource value: 0x7f080078
+			public const int design_bottom_sheet = 2131230840;
 			
-			// aapt resource value: 0x7f08008f
-			public const int design_menu_item_action_area = 2131230863;
+			// aapt resource value: 0x7f08007f
+			public const int design_menu_item_action_area = 2131230847;
 			
-			// aapt resource value: 0x7f08008e
-			public const int design_menu_item_action_area_stub = 2131230862;
+			// aapt resource value: 0x7f08007e
+			public const int design_menu_item_action_area_stub = 2131230846;
 			
-			// aapt resource value: 0x7f08008d
-			public const int design_menu_item_text = 2131230861;
+			// aapt resource value: 0x7f08007d
+			public const int design_menu_item_text = 2131230845;
 			
-			// aapt resource value: 0x7f08008c
-			public const int design_navigation_view = 2131230860;
+			// aapt resource value: 0x7f08007c
+			public const int design_navigation_view = 2131230844;
 			
 			// aapt resource value: 0x7f080012
 			public const int disableHome = 2131230738;
@@ -5453,8 +3718,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int end_padder = 2131230913;
+			// aapt resource value: 0x7f0800b1
+			public const int end_padder = 2131230897;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -5483,12 +3748,6 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
 			
-			// aapt resource value: 0x7f080075
-			public const int gridLineLayout = 2131230837;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int gridLinesLayout = 2131230917;
-			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
@@ -5498,11 +3757,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f080081
-			public const int iconView = 2131230849;
-			
-			// aapt resource value: 0x7f0800bc
-			public const int icon_group = 2131230908;
+			// aapt resource value: 0x7f0800ac
+			public const int icon_group = 2131230892;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -5510,41 +3766,23 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080046
 			public const int image = 2131230790;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int info = 2131230904;
+			// aapt resource value: 0x7f0800a8
+			public const int info = 2131230888;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080082
-			public const int label = 2131230850;
-			
-			// aapt resource value: 0x7f080084
-			public const int largeLabel = 2131230852;
+			// aapt resource value: 0x7f080074
+			public const int largeLabel = 2131230836;
 			
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f08007e
-			public const int legendHeader = 2131230846;
+			// aapt resource value: 0x7f0800ad
+			public const int line1 = 2131230893;
 			
-			// aapt resource value: 0x7f080080
-			public const int legendItemsLayout = 2131230848;
-			
-			// aapt resource value: 0x7f08007b
-			public const int legendLayout = 2131230843;
-			
-			// aapt resource value: 0x7f08007f
-			public const int legendScrollView = 2131230847;
-			
-			// aapt resource value: 0x7f08007d
-			public const int legendViewGroup = 2131230845;
-			
-			// aapt resource value: 0x7f0800bd
-			public const int line1 = 2131230909;
-			
-			// aapt resource value: 0x7f0800bf
-			public const int line3 = 2131230911;
+			// aapt resource value: 0x7f0800af
+			public const int line3 = 2131230895;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
@@ -5552,11 +3790,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800ca
-			public const int masked = 2131230922;
+			// aapt resource value: 0x7f0800b5
+			public const int masked = 2131230901;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int media_actions = 2131230897;
+			// aapt resource value: 0x7f0800a1
+			public const int media_actions = 2131230881;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -5564,86 +3802,86 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f08003e
 			public const int mini = 2131230782;
 			
-			// aapt resource value: 0x7f08009d
-			public const int mr_art = 2131230877;
+			// aapt resource value: 0x7f08008d
+			public const int mr_art = 2131230861;
 			
-			// aapt resource value: 0x7f080092
-			public const int mr_chooser_list = 2131230866;
+			// aapt resource value: 0x7f080082
+			public const int mr_chooser_list = 2131230850;
 			
-			// aapt resource value: 0x7f080095
-			public const int mr_chooser_route_desc = 2131230869;
+			// aapt resource value: 0x7f080085
+			public const int mr_chooser_route_desc = 2131230853;
 			
-			// aapt resource value: 0x7f080093
-			public const int mr_chooser_route_icon = 2131230867;
+			// aapt resource value: 0x7f080083
+			public const int mr_chooser_route_icon = 2131230851;
 			
-			// aapt resource value: 0x7f080094
-			public const int mr_chooser_route_name = 2131230868;
+			// aapt resource value: 0x7f080084
+			public const int mr_chooser_route_name = 2131230852;
 			
-			// aapt resource value: 0x7f080091
-			public const int mr_chooser_title = 2131230865;
+			// aapt resource value: 0x7f080081
+			public const int mr_chooser_title = 2131230849;
 			
-			// aapt resource value: 0x7f08009a
-			public const int mr_close = 2131230874;
+			// aapt resource value: 0x7f08008a
+			public const int mr_close = 2131230858;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int mr_control_divider = 2131230880;
-			
-			// aapt resource value: 0x7f0800a6
-			public const int mr_control_playback_ctrl = 2131230886;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int mr_control_subtitle = 2131230889;
-			
-			// aapt resource value: 0x7f0800a8
-			public const int mr_control_title = 2131230888;
-			
-			// aapt resource value: 0x7f0800a7
-			public const int mr_control_title_container = 2131230887;
-			
-			// aapt resource value: 0x7f08009b
-			public const int mr_custom_control = 2131230875;
-			
-			// aapt resource value: 0x7f08009c
-			public const int mr_default_control = 2131230876;
-			
-			// aapt resource value: 0x7f080097
-			public const int mr_dialog_area = 2131230871;
+			// aapt resource value: 0x7f080090
+			public const int mr_control_divider = 2131230864;
 			
 			// aapt resource value: 0x7f080096
-			public const int mr_expandable_area = 2131230870;
-			
-			// aapt resource value: 0x7f0800aa
-			public const int mr_group_expand_collapse = 2131230890;
-			
-			// aapt resource value: 0x7f08009e
-			public const int mr_media_main_control = 2131230878;
+			public const int mr_control_playback_ctrl = 2131230870;
 			
 			// aapt resource value: 0x7f080099
-			public const int mr_name = 2131230873;
-			
-			// aapt resource value: 0x7f08009f
-			public const int mr_playback_control = 2131230879;
+			public const int mr_control_subtitle = 2131230873;
 			
 			// aapt resource value: 0x7f080098
-			public const int mr_title_bar = 2131230872;
+			public const int mr_control_title = 2131230872;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int mr_volume_control = 2131230881;
+			// aapt resource value: 0x7f080097
+			public const int mr_control_title_container = 2131230871;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int mr_volume_group_list = 2131230882;
+			// aapt resource value: 0x7f08008b
+			public const int mr_custom_control = 2131230859;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int mr_volume_item_icon = 2131230884;
+			// aapt resource value: 0x7f08008c
+			public const int mr_default_control = 2131230860;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int mr_volume_slider = 2131230885;
+			// aapt resource value: 0x7f080087
+			public const int mr_dialog_area = 2131230855;
+			
+			// aapt resource value: 0x7f080086
+			public const int mr_expandable_area = 2131230854;
+			
+			// aapt resource value: 0x7f08009a
+			public const int mr_group_expand_collapse = 2131230874;
+			
+			// aapt resource value: 0x7f08008e
+			public const int mr_media_main_control = 2131230862;
+			
+			// aapt resource value: 0x7f080089
+			public const int mr_name = 2131230857;
+			
+			// aapt resource value: 0x7f08008f
+			public const int mr_playback_control = 2131230863;
+			
+			// aapt resource value: 0x7f080088
+			public const int mr_title_bar = 2131230856;
+			
+			// aapt resource value: 0x7f080091
+			public const int mr_volume_control = 2131230865;
+			
+			// aapt resource value: 0x7f080092
+			public const int mr_volume_group_list = 2131230866;
+			
+			// aapt resource value: 0x7f080094
+			public const int mr_volume_item_icon = 2131230868;
+			
+			// aapt resource value: 0x7f080095
+			public const int mr_volume_slider = 2131230869;
 			
 			// aapt resource value: 0x7f080019
 			public const int multiply = 2131230745;
 			
-			// aapt resource value: 0x7f08008b
-			public const int navigation_header_container = 2131230859;
+			// aapt resource value: 0x7f08007b
+			public const int navigation_header_container = 2131230843;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -5654,14 +3892,14 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int notification_background = 2131230906;
+			// aapt resource value: 0x7f0800aa
+			public const int notification_background = 2131230890;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int notification_main_column = 2131230900;
+			// aapt resource value: 0x7f0800a4
+			public const int notification_main_column = 2131230884;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int notification_main_column_container = 2131230899;
+			// aapt resource value: 0x7f0800a3
+			public const int notification_main_column_container = 2131230883;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -5684,14 +3922,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int right_icon = 2131230905;
+			// aapt resource value: 0x7f0800a9
+			public const int right_icon = 2131230889;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int right_side = 2131230901;
-			
-			// aapt resource value: 0x7f080073
-			public const int rootLayout = 2131230835;
+			// aapt resource value: 0x7f0800a5
+			public const int right_side = 2131230885;
 			
 			// aapt resource value: 0x7f08001a
 			public const int screen = 2131230746;
@@ -5744,9 +3979,6 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080072
 			public const int select_dialog_listview = 2131230834;
 			
-			// aapt resource value: 0x7f080077
-			public const int seriesLayout = 2131230839;
-			
 			// aapt resource value: 0x7f08005c
 			public const int shortcut = 2131230812;
 			
@@ -5759,17 +3991,17 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int sliding_tabs = 2131230919;
+			// aapt resource value: 0x7f0800b2
+			public const int sliding_tabs = 2131230898;
 			
-			// aapt resource value: 0x7f080083
-			public const int smallLabel = 2131230851;
+			// aapt resource value: 0x7f080073
+			public const int smallLabel = 2131230835;
 			
-			// aapt resource value: 0x7f08008a
-			public const int snackbar_action = 2131230858;
+			// aapt resource value: 0x7f08007a
+			public const int snackbar_action = 2131230842;
 			
-			// aapt resource value: 0x7f080089
-			public const int snackbar_text = 2131230857;
+			// aapt resource value: 0x7f080079
+			public const int snackbar_text = 2131230841;
 			
 			// aapt resource value: 0x7f08002e
 			public const int snap = 2131230766;
@@ -5792,11 +4024,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int status_bar_latest_event_content = 2131230896;
-			
-			// aapt resource value: 0x7f080076
-			public const int stripLinesLayout = 2131230838;
+			// aapt resource value: 0x7f0800a0
+			public const int status_bar_latest_event_content = 2131230880;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -5807,14 +4036,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f080079
-			public const int technicalIndicatorLayout = 2131230841;
+			// aapt resource value: 0x7f0800b0
+			public const int text = 2131230896;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int text = 2131230912;
-			
-			// aapt resource value: 0x7f0800be
-			public const int text2 = 2131230910;
+			// aapt resource value: 0x7f0800ae
+			public const int text2 = 2131230894;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -5822,8 +4048,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080051
 			public const int textSpacerNoTitle = 2131230801;
 			
-			// aapt resource value: 0x7f080090
-			public const int text_input_password_toggle = 2131230864;
+			// aapt resource value: 0x7f080080
+			public const int text_input_password_toggle = 2131230848;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -5831,11 +4057,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int thumbLayout = 2131230918;
-			
-			// aapt resource value: 0x7f0800b6
-			public const int time = 2131230902;
+			// aapt resource value: 0x7f0800a6
+			public const int time = 2131230886;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -5843,14 +4066,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080059
 			public const int titleDividerNoCustom = 2131230809;
 			
-			// aapt resource value: 0x7f080074
-			public const int titleLayout = 2131230836;
-			
 			// aapt resource value: 0x7f080057
 			public const int title_template = 2131230807;
 			
-			// aapt resource value: 0x7f0800c8
-			public const int toolbar = 2131230920;
+			// aapt resource value: 0x7f0800b3
+			public const int toolbar = 2131230899;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
@@ -5858,11 +4078,8 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f080056
 			public const int topPanel = 2131230806;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int top_labels = 2131230914;
-			
-			// aapt resource value: 0x7f080087
-			public const int touch_outside = 2131230855;
+			// aapt resource value: 0x7f080077
+			public const int touch_outside = 2131230839;
 			
 			// aapt resource value: 0x7f08000a
 			public const int transition_current_scene = 2131230730;
@@ -5879,11 +4096,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int visible = 2131230921;
+			// aapt resource value: 0x7f0800b4
+			public const int visible = 2131230900;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int volume_item_container = 2131230883;
+			// aapt resource value: 0x7f080093
+			public const int volume_item_container = 2131230867;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -6054,139 +4271,127 @@ namespace MobileApp.Droid
 			public const int abc_select_dialog_material = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int chart_layout = 2130903067;
+			public const int design_bottom_navigation_item = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int chart_legend = 2130903068;
+			public const int design_bottom_sheet_dialog = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int chart_legend_item = 2130903069;
+			public const int design_layout_snackbar = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int design_bottom_navigation_item = 2130903070;
+			public const int design_layout_snackbar_include = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_bottom_sheet_dialog = 2130903071;
+			public const int design_layout_tab_icon = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_layout_snackbar = 2130903072;
+			public const int design_layout_tab_text = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_layout_snackbar_include = 2130903073;
+			public const int design_menu_item_action_area = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_layout_tab_icon = 2130903074;
+			public const int design_navigation_item = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_layout_tab_text = 2130903075;
+			public const int design_navigation_item_header = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_menu_item_action_area = 2130903076;
+			public const int design_navigation_item_separator = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_item = 2130903077;
+			public const int design_navigation_item_subheader = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_item_header = 2130903078;
+			public const int design_navigation_menu = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_item_separator = 2130903079;
+			public const int design_navigation_menu_item = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_navigation_item_subheader = 2130903080;
+			public const int design_text_input_password_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_navigation_menu = 2130903081;
+			public const int mr_chooser_dialog = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_navigation_menu_item = 2130903082;
+			public const int mr_chooser_list_item = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int design_text_input_password_icon = 2130903083;
+			public const int mr_controller_material_dialog_b = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int mr_chooser_dialog = 2130903084;
+			public const int mr_controller_volume_item = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_chooser_list_item = 2130903085;
+			public const int mr_playback_control = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_controller_material_dialog_b = 2130903086;
+			public const int mr_volume_control = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int mr_controller_volume_item = 2130903087;
+			public const int notification_action = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int mr_playback_control = 2130903088;
+			public const int notification_action_tombstone = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int mr_volume_control = 2130903089;
+			public const int notification_media_action = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_action = 2130903090;
+			public const int notification_media_cancel_action = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_action_tombstone = 2130903091;
+			public const int notification_template_big_media = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_media_action = 2130903092;
+			public const int notification_template_big_media_custom = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_media_cancel_action = 2130903093;
+			public const int notification_template_big_media_narrow = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media = 2130903094;
+			public const int notification_template_big_media_narrow_custom = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_custom = 2130903095;
+			public const int notification_template_custom_big = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media_narrow = 2130903096;
+			public const int notification_template_icon_group = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_narrow_custom = 2130903097;
+			public const int notification_template_lines_media = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_custom_big = 2130903098;
+			public const int notification_template_media = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_icon_group = 2130903099;
+			public const int notification_template_media_custom = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_lines_media = 2130903100;
+			public const int notification_template_part_chronometer = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_media = 2130903101;
+			public const int notification_template_part_time = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_media_custom = 2130903102;
+			public const int select_dialog_item_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_part_chronometer = 2130903103;
+			public const int select_dialog_multichoice_material = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_part_time = 2130903104;
+			public const int select_dialog_singlechoice_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int range_navigator_layout = 2130903105;
+			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int select_dialog_item_material = 2130903106;
+			public const int Tabbar = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_multichoice_material = 2130903107;
-			
-			// aapt resource value: 0x7f030044
-			public const int select_dialog_singlechoice_material = 2130903108;
-			
-			// aapt resource value: 0x7f030045
-			public const int support_simple_spinner_dropdown_item = 2130903109;
-			
-			// aapt resource value: 0x7f030046
-			public const int Tabbar = 2130903110;
-			
-			// aapt resource value: 0x7f030047
-			public const int Toolbar = 2130903111;
+			public const int Toolbar = 2130903107;
 			
 			static Layout()
 			{
@@ -6303,6 +4508,9 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f090038
 			public const int character_counter_pattern = 2131296312;
 			
+			// aapt resource value: 0x7f09003e
+			public const int library_name = 2131296318;
+			
 			// aapt resource value: 0x7f090000
 			public const int mr_button_content_description = 2131296256;
 			
@@ -6381,35 +4589,11 @@ namespace MobileApp.Droid
 			// aapt resource value: 0x7f09003d
 			public const int path_password_strike_through = 2131296317;
 			
-			// aapt resource value: 0x7f09003f
-			public const int q = 2131296319;
-			
-			// aapt resource value: 0x7f09003e
-			public const int quarter = 2131296318;
-			
 			// aapt resource value: 0x7f090028
 			public const int search_menu_title = 2131296296;
 			
-			// aapt resource value: 0x7f090045
-			public const int sfchart_close_label = 2131296325;
-			
-			// aapt resource value: 0x7f090042
-			public const int sfchart_high_label = 2131296322;
-			
-			// aapt resource value: 0x7f090043
-			public const int sfchart_low_label = 2131296323;
-			
-			// aapt resource value: 0x7f090044
-			public const int sfchart_open_label = 2131296324;
-			
 			// aapt resource value: 0x7f090029
 			public const int status_bar_notification_info_overflow = 2131296297;
-			
-			// aapt resource value: 0x7f090041
-			public const int w = 2131296321;
-			
-			// aapt resource value: 0x7f090040
-			public const int week = 2131296320;
 			
 			static String()
 			{

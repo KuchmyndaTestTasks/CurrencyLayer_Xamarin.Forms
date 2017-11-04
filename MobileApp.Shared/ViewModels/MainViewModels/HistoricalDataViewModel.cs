@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
+using Microcharts;
 using MobileApp.Shared.Abstractions;
 using MobileApp.Shared.Infrastructure;
 using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Models;
+using MobileApp.Shared.UI.Popups;
+using SkiaSharp;
 
 namespace MobileApp.Shared.ViewModels.MainViewModels
 {
-    public class HistoricalDataViewModel : ViewModelBase, IInitializationViewModel
+    internal class HistoricalDataViewModel : ViewModelBase
     {
         public HistoricalDataViewModel()
         {
             BackgroundDownloader.UpdateEvent += Execute;
-            Execute();
         }
 
         ~HistoricalDataViewModel()
@@ -39,7 +42,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Currency Points (datetime, rating)
         /// </summary>
-        private ObservableCollection<DatePoint> _chart;
+        private Chart _chart;
 
         private CurrencyModel _currencyModelFrom;
         private CurrencyModel _currencyModelTo;
@@ -48,6 +51,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// Colection of historical data (datetime, currencies[])
         /// </summary>
         private Dictionary<DateTime, ApiCurrencyModel> _historicalData;
+        
 
         #endregion
 
@@ -63,7 +67,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             }
         }
 
-        public ObservableCollection<DatePoint> Chart
+        public Chart Chart
         {
             get { return _chart; }
             set
@@ -79,6 +83,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             set
             {
                 _currencyModelFrom = value;
+                InitializeChart();
                 OnPropertyChanged();
             }
         }
@@ -89,6 +94,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             set
             {
                 _currencyModelTo = value;
+                InitializeChart();
                 OnPropertyChanged();
             }
         }
@@ -119,13 +125,11 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
 
         #region <Methods> 
 
-        public bool IsLoading { get; set; }
-
         /// <summary>
         /// Initializes data & contexts by selected currencies.
         /// It need after apllying changes in Settings (changing currency selections)
         /// </summary>
-        public void Initialize()
+        private void Initialize()
         {
             InitializeModels();
             CurrencyModelFrom = CurrencyModels.First();
@@ -142,17 +146,31 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
                 _historicalData == null)
                 return;
             Description = $"{_currencyModelFrom.Code}/{_currencyModelTo.Code}";
-            _chart = new ObservableCollection<DatePoint>();
+            var entries = new List<Entry>();
+            Random random = new Random(DateTime.Now.Millisecond);
             foreach (var model in _historicalData)
             {
-                _chart.Add(new DatePoint
+                var value = (float) (model.Value.Currencies[_currencyModelFrom.Code] /
+                                     model.Value.Currencies[_currencyModelTo.Code]);
+                entries.Add(new Entry(value)
                 {
-                    Date = model.Key.ToString("dd/MM/yyyy"),
-                    Rating = model.Value.Currencies[_currencyModelFrom.Code] /
-                             model.Value.Currencies[_currencyModelTo.Code]
+                    Label = model.Key.ToString("dd/MM/yyyy"),
+                    ValueLabel = value.ToString(),
+                    Color = new SKColor((byte) random.Next(255), (byte) random.Next(255), (byte) random.Next(255))
                 });
             }
-            Chart = _chart;
+            Chart = new LineChart()
+            {
+                Entries = new ObservableCollection<Entry>(entries),
+                MinValue = (float) (entries.Min(v => v.Value) * .995),
+                MaxValue = (float) (entries.Max(v => v.Value) * 1.005),
+                LineMode = LineMode.Spline,
+                LabelTextSize = 40,
+                LineAreaAlpha = 100,
+                LineSize = 7,
+                PointMode = PointMode.Square,
+                PointSize = 15
+            };
         }
 
         /// <summary>
@@ -168,14 +186,19 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        protected void Execute()
+        public void Execute()
         {
-            if (Settings.Instance.IsConfigured)
+            Task.Run(() =>
             {
+                if (!Settings.Instance.IsConfigured) return;
+                var popup = new LoadingPopup();
+                CurrencyLayerApplication.CallPopup(popup);
                 Initialize();
                 CheckSelectedModels();
                 InitializeChart();
-            }
+                CurrencyLayerApplication.ThreadSleep(1);
+                CurrencyLayerApplication.ClosePopup(popup);
+            });
         }
 
         /// <summary>

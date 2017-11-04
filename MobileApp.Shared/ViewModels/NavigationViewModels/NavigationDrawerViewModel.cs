@@ -1,4 +1,5 @@
-﻿using MobileApp.Shared.Infrastructure.MainOperations;
+﻿using MobileApp.Shared.Abstractions;
+using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Views.NavigationPage;
 
 namespace MobileApp.Shared.ViewModels.NavigationViewModels
@@ -10,7 +11,7 @@ namespace MobileApp.Shared.ViewModels.NavigationViewModels
             _masterPage = masterPage;
             _navigationListViewModel = new NavigationListViewModel(masterPage);
             _masterPage.Master = new NavigationDrawerList { BindingContext = _navigationListViewModel };
-            BackgroundDownloader.Start();
+            
         }
         #region <Fields>
         

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Input;
+using MobileApp.Shared.Abstractions;
 using MobileApp.Shared.Global;
 using MobileApp.Shared.Infrastructure;
 using MobileApp.Shared.Views.NavigationPage;

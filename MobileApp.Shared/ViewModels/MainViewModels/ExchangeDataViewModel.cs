@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using MobileApp.Shared.Abstractions;
 using MobileApp.Shared.Helpers;
 using MobileApp.Shared.Infrastructure;
 using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Models;
+using MobileApp.Shared.UI.Popups;
 
 namespace MobileApp.Shared.ViewModels.MainViewModels
 {
@@ -13,13 +15,12 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
     /// <summary>
     /// ViewModel for CurrentDataPage.xaml
     /// </summary>
-    internal class ExchangeDataViewModel : ViewModelBase, IInitializationViewModel
+    internal class ExchangeDataViewModel : ViewModelBase
     {
         public ExchangeDataViewModel()
         {
             _currencyValue = 1;
             BackgroundDownloader.UpdateEvent += Execute;
-            Execute();
         }
 
         ~ExchangeDataViewModel()
@@ -90,8 +91,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
                 OnPropertyChanged();
             }
         }
-
-        public bool IsLoading { get; set; }
+        
 
         public CurrencyModel SelectedCurrencyModel
         {
@@ -137,14 +137,19 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        protected void Execute()
+        public void Execute()
         {
-            if (Settings.Instance.IsConfigured)
+            Task.Run(() =>
             {
+
+                if (!Settings.Instance.IsConfigured) return;
+                var popup = new LoadingPopup();
+                CurrencyLayerApplication.CallPopup(popup);
                 Initialize();
                 Calculation();
                 CurrencyLayerApplication.ThreadSleep(1);
-            }
+                CurrencyLayerApplication.ClosePopup(popup);
+            });
         }
 
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using MobileApp.Shared.ViewModels.NavigationViewModels;
+﻿using MobileApp.Shared.Infrastructure.MainOperations;
+using MobileApp.Shared.ViewModels.NavigationViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,6 +14,12 @@ namespace MobileApp.Shared.Views.NavigationPage
             BindingContext = context;
             InitializeComponent();
             context.InitializePage();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            BackgroundDownloader.Init();
         }
     }
 }

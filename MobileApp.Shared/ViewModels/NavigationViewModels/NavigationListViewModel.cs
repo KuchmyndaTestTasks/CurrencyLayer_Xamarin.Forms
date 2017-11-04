@@ -1,4 +1,5 @@
 ﻿using System.Windows.Input;
+using MobileApp.Shared.Abstractions;
 using MobileApp.Shared.Views.CurrencyLayerPages;
 using MobileApp.Shared.Views.NavigationPage;
 using Xamarin.Forms;

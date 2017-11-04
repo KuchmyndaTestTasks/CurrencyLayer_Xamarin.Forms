@@ -1,27 +1,30 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using MobileApp.Shared.Abstractions;
+using MobileApp.Shared.Global;
 using MobileApp.Shared.Infrastructure;
 using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Models;
+using MobileApp.Shared.UI.Popups;
+using Rg.Plugins.Popup.Pages;
 using Xamarin.Forms;
 
 namespace MobileApp.Shared.ViewModels.MainViewModels
 {
-    class CurrentDataViewModel : ViewModelBase, IInitializationViewModel
+    class CurrencyDataViewModel : ViewModelBase
     {
         /// <summary>
         /// ViewModel for CurrentDataPage.xaml
         /// </summary>
-        public CurrentDataViewModel(Grid grid) : base()
+        public CurrencyDataViewModel(Grid grid) : base()
         {
             _grid = grid;
-            BackgroundDownloader.UpdateEvent += Execute;
-            Execute();
+            BackgroundDownloader.UpdateEvent += Execute;            
         }
 
-        ~CurrentDataViewModel()
+        ~CurrencyDataViewModel()
         {
             BackgroundDownloader.UpdateEvent -= Execute;
         }
@@ -76,15 +79,17 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// Initializes data & contexts by selected currencies.
         /// It need after apllying changes in Settings (changing currency selections)
         /// </summary>
-        public void Initialize()
+        private void Initialize()
         {
             InitializeModels();
-            
-                var apiCurrencyModels = CurrencyLayerApplication.HistoricalData;
-                _liveCurrencyModel = apiCurrencyModels
-                    .First(x => x.Key.Ticks == apiCurrencyModels.Max(t => t.Key.Ticks))
-                    .Value;
+
+            var apiCurrencyModels = CurrencyLayerApplication.HistoricalData;
+            _liveCurrencyModel = apiCurrencyModels
+                .First(x => x.Key.Ticks == apiCurrencyModels.Max(t => t.Key.Ticks))
+                .Value;
         }
+
+        
 
         /// <summary>
         /// Initializes currency models.
@@ -97,14 +102,20 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        protected void Execute()
+        public void Execute()
         {
-            if (Settings.Instance.IsConfigured)
+            Task.Run(() =>
             {
+                if (!Settings.Instance.IsConfigured) return;
+                var popup = new LoadingPopup();
+                CurrencyLayerApplication.CallPopup(popup);
                 Initialize();
                 Calculation();
-                Device.BeginInvokeOnMainThread(InitializeGrid);
-            }
+                CurrencyLayerApplication.InMainThread(InitializeGrid);
+                CurrencyLayerApplication.ThreadSleep(1);
+                CurrencyLayerApplication.ClosePopup(popup);
+            });
+
         }
 
         /// <summary>
@@ -165,6 +176,19 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
                 CreateHeaderCell(rates, i);
                 CreateGridCell(rates, i);
             }
+            FillOtherCells();
+        }
+
+        private void FillOtherCells()
+        {
+            var panel = new StackLayout() {BackgroundColor = Color.DodgerBlue};
+            panel.Children.Add(new Image()
+            {
+                Source = Helpers.UiHelpers.GetImage("exchange", "png"),
+                Aspect = Aspect.AspectFit
+            });
+            SetCellIndexes(panel, 0, 0);
+            _grid.Children.Add(panel);
         }
 
         /// <summary>
@@ -178,15 +202,14 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             for (int j = 0; j < rates[index].Item2.Length; j++)
             {
                 var panel = GetStackPanel();
-                panel.Children.Add(GetTextBlock(Math.Round(rates[index].Item2[j].Rating, 5).ToString(), Color.Black));
+                panel.Children.Add(GetTextBlock(Math.Round(rates[index].Item2[j].Rating, 5).ToString(), index % 2 != 0 ? Color.Black : Color.White));
                 if (index != j)
                 {
                     panel.Children.Add(GetTextBlock(Math.Round(rates[j].Item2[index].Rating, 5).ToString(),
                         Color.DarkGray));
                 }
-                var panelmain = GetPanel(panel);
                 //Sets background color for odd and even rows.
-                panelmain.BackgroundColor = index % 2 != 0 ? Color.White : Color.LightGray;
+                var panelmain = GetPanel(index % 2 != 0 ? Color.White : Color.CornflowerBlue,panel);
                 SetCellIndexes(panelmain, index + 1, j + 1);
                 _grid.Children.Add(panelmain);
             }
@@ -204,20 +227,20 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             var rowpicturedPanel = GetStackPanel();
             rowpicturedPanel.Orientation = StackOrientation.Horizontal;
             rowpicturedPanel.Children.Add(new Image() {Source = Helpers.UiHelpers.GetImage(rates[index].Item1)});
-            rowpicturedPanel.Children.Add(GetTextBlock($"1 {rates[index].Item1.Code}", Color.Gray));
+            rowpicturedPanel.Children.Add(GetTextBlock($"1 {rates[index].Item1.Code}", Color.White));
             rowheader.Children.Add(rowpicturedPanel);
-            rowheader.Children.Add(GetTextBlock("Inverse:", Color.Gray));
+            rowheader.Children.Add(GetTextBlock("Inverse:", Color.White));
             var colheader = GetStackPanel();
             colheader.Orientation = StackOrientation.Horizontal;
             colheader.Children.Add(new Image() {Source = Helpers.UiHelpers.GetImage(rates[index].Item1)});
-            colheader.Children.Add(GetTextBlock($"{rates[index].Item1.Code}", Color.Gray));
+            colheader.Children.Add(GetTextBlock($"{rates[index].Item1.Code}", Color.White));
 
-            var panRowHeader = GetPanel(rowheader);
+            var panRowHeader = GetPanel(Color.DodgerBlue,rowheader);
             SetCellIndexes(panRowHeader, index + 1, 0);
-            var panColHeader = GetPanel(colheader);
+            var panColHeader = GetPanel(Color.DodgerBlue, colheader);
             SetCellIndexes(panColHeader, 0, index + 1);
-            panColHeader.BackgroundColor = Color.LightGray;
-            panRowHeader.BackgroundColor = Color.LightGray;
+            panColHeader.BackgroundColor = Color.DodgerBlue;
+            panRowHeader.BackgroundColor = Color.DodgerBlue;
             _grid.Children.Add(panColHeader);
             _grid.Children.Add(panRowHeader);
         }
@@ -284,9 +307,9 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
             };
         }
 
-        private StackLayout GetPanel(params View[] children)
+        private StackLayout GetPanel(Color color,params View[] children)
         {
-            var panel = new StackLayout();
+            var panel = new StackLayout(){BackgroundColor = color};
             foreach (var child in children)
             {
                 panel.Children.Add(child);

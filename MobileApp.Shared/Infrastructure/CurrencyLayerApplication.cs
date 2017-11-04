@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using MobileApp.Shared.Global;
 using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Models;
 using MobileApp.Shared.Views.MainViews;
 using MobileApp.Shared.Views.NavigationPage;
+using Rg.Plugins.Popup.Pages;
+using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace MobileApp.Shared.Infrastructure
@@ -16,6 +19,26 @@ namespace MobileApp.Shared.Infrastructure
     /// </summary>
     public static class CurrencyLayerApplication
     {
+        static CurrencyLayerApplication()
+        {
+            RefreshModels();
+            Settings.Read();
+            var instance = Settings.Instance;
+            //Checks is application prepared for using
+            var res = CurrencyModels != null && HistoricalData != null && CurrencyModels.Any() && HistoricalData.Any()
+                      && !string.IsNullOrEmpty(instance.ApiKey);
+            instance.IsConfigured = res;
+        }
+
+        #region <Fields>
+
+        private static CurrencyModel[] _currencyModels;
+        private static Dictionary<DateTime, ApiCurrencyModel> _historicalData;
+
+        #endregion
+
+        #region <Properties>
+
         /// <summary>
         /// General selected currencies.
         /// </summary>
@@ -39,21 +62,9 @@ namespace MobileApp.Shared.Infrastructure
             set { _historicalData = value; }
         }
 
-        private static CurrencyModel[] _currencyModels;
-        private static Dictionary<DateTime, ApiCurrencyModel> _historicalData;
+        #endregion
 
-        static CurrencyLayerApplication()
-        {
-            RefreshModels();
-            Settings.Read();
-            var instance = Settings.Instance;
-            //Checks is application prepared for using
-            var res = CurrencyModels != null && HistoricalData != null && CurrencyModels.Any() && HistoricalData.Any()
-                      && !string.IsNullOrEmpty(instance.ApiKey);
-            instance.IsConfigured = res;
-        }
-
-
+        #region <Methods>
 
         /// <summary>
         /// Reread currencies from DB
@@ -83,12 +94,39 @@ namespace MobileApp.Shared.Infrastructure
         {
             if (Settings.Instance.IsConfigured)
             {
-                Application.Current.RedirectTo(new NavigationDrawer(), false);
+                RedirectTo(new NavigationDrawer(), false);
             }
             else
             {
-                Application.Current.RedirectTo(new InitPage(), false);
+                RedirectTo(new InitPage(), false);
             }
         }
+
+        public static void RedirectTo(Page page,bool isAnimated = true)
+        {
+            Application.Current.RedirectTo(page, isAnimated);
+        }
+        public static void CallPopup(PopupPage page)
+        {
+             InMainThread(() => PopupNavigation.PushAsync(page));
+        }
+        public static void PreviousPage()
+        {
+            Application.Current.MainPage.SendBackButtonPressed();
+        }
+        public static void ClosePopup(PopupPage page)
+        {
+            InMainThread(async() =>
+            {
+                await PopupNavigation.PopAllAsync();
+                await PopupNavigation.RemovePageAsync(page);
+            });
+        }
+
+        public static void InMainThread(Action action)
+        {
+            Device.BeginInvokeOnMainThread(action);
+        }
+        #endregion
     }
 }
