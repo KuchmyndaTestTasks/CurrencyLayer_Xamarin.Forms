@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mainViewModels="clr-namespace:MobileApp.Shared.ViewModels.MainViewModels;assembly=MobileApp.Shared"
+             xmlns:converters="clr-namespace:MobileApp.Shared.Infrastructure.Converters;assembly=MobileApp.Shared"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="MobileApp.Shared.Views.CurrencyLayerPages.HistoricalDataPage">
+    <ContentPage.BindingContext>
+        <mainViewModels:HistoricalDataViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:CurrentModelCollectionConverter x:Key="CurrencyConverterCollection" />
+            <converters:CurrentModelConverter x:Key="CurrentModelConverter" />
+            <Style TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}" />
+            <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}" />
+            <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Frame>
+                <chart:SfChart WidthRequest="300"
+                       HeightRequest="300" 
+                       HorizontalOptions="FillAndExpand" 
+                       VerticalOptions="FillAndExpand">
+                    <chart:SfChart.Legend>
+                        <chart:ChartLegend />
+                    </chart:SfChart.Legend>
+                    <chart:SfChart.Title>
+                        <chart:ChartTitle Text="{Binding Description}" />
+                    </chart:SfChart.Title>
+                    <chart:SfChart.PrimaryAxis>
+                        <chart:CategoryAxis>
+                            <chart:CategoryAxis.Title>
+                                <chart:ChartAxisTitle Text="Day" />
+                            </chart:CategoryAxis.Title>
+                        </chart:CategoryAxis>
+                    </chart:SfChart.PrimaryAxis>
+                    <chart:SfChart.SecondaryAxis>
+                        <chart:NumericalAxis>
+                            <chart:NumericalAxis.Title>
+                                <chart:ChartAxisTitle Text="Rating" />
+                            </chart:NumericalAxis.Title>
+                        </chart:NumericalAxis>
+                    </chart:SfChart.SecondaryAxis>
+                    <chart:SfChart.Series>
+                        <chart:SplineAreaSeries Label="Text" 
+                                                ItemsSource="{Binding Chart}" 
+                                                XBindingPath="Date" 
+                                                YBindingPath="Rating">
+                            <chart:SplineAreaSeries.XAxis>
+                                <chart:CategoryAxis OpposedPosition="True" 
+                                                    ShowMajorGridLines="True" />
+                            </chart:SplineAreaSeries.XAxis>
+                            <chart:SplineAreaSeries.YAxis>
+                                
+                                <chart:NumericalAxis OpposedPosition="True" 
+                                                     ShowMajorGridLines="True" />
+                            </chart:SplineAreaSeries.YAxis>
+                        </chart:SplineAreaSeries>
+                    </chart:SfChart.Series>
+                </chart:SfChart>
+            <StackLayout Orientation="Horizontal">
+                <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" />
+                <Label Text="/" />
+                <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" />
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

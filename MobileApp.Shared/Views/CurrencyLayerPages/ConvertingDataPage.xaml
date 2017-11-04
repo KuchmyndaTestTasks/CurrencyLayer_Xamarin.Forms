@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mainViewModels1="clr-namespace:MobileApp.Shared.ViewModels.MainViewModels;assembly=MobileApp.Shared"
+             xmlns:converters1="clr-namespace:MobileApp.Shared.Infrastructure.Converters;assembly=MobileApp.Shared"
+             x:Class="MobileApp.Shared.Views.CurrencyLayerPages.ConvertingDataPage"
+             Style="{StaticResource PageBase}">
+    <ContentPage.BindingContext>
+        <mainViewModels1:ExchangeDataViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters1:CurrentModelConverter x:Key="CurrentModelConverter" />
+            <converters1:CurrentModelCollectionConverter x:Key="CurrentModelCollectionConverter" />
+            <converters1:FlagImageConverter x:Key="ImageConverter" />
+            <Style TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+            <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}"/>
+            <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}"/>
+            <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Frame Padding="30">
+            <StackLayout Orientation="Vertical"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Converting currencies:" 
+                       HorizontalTextAlignment="Center"/>
+                <ListView 
+                          HorizontalOptions="CenterAndExpand"
+                          VerticalOptions="CenterAndExpand"
+                          HeightRequest="300"
+                          WidthRequest="250"
+                          SeparatorVisibility="Default"
+                          ItemsSource="{Binding ExchangeModels}"
+                          >
+                    <ListView.ItemTemplate>
+                            <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="24"/>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image WidthRequest="22" 
+                                           HeightRequest="16" 
+                                           Aspect="AspectFit" 
+                                           Source="{Binding Code,Converter={StaticResource ImageConverter}}"/>
+                                    <Label Grid.Column="1"  Text="{Binding Code}"/>
+                                    <Label Grid.Column="2" Text="{Binding Rating}"></Label>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Label Text="Selected currency:"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand"
+                             Margin="13,0,13,0">
+                    <Label Text="{Binding CurrencyValue,Mode=OneWay}"/>
+                    <Picker ItemsSource="{Binding CurrencyModels, Converter={StaticResource CurrentModelCollectionConverter}}" 
+                            SelectedItem="{Binding SelectedCurrencyModel,Converter={StaticResource CurrentModelConverter}}"
+                            WidthRequest="60"/>
+                </StackLayout>
+                <Stepper Minimum="1" 
+                         Increment="0,1" 
+                         Value="{Binding CurrencyValue}"
+                         HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tabsSettingViewModels="clr-namespace:MobileApp.Shared.ViewModels.Tabs_SettingViewModels;assembly=MobileApp.Shared"
+             xmlns:converters="clr-namespace:MobileApp.Shared.Infrastructure.Converters;assembly=MobileApp.Shared"
+             x:Class="MobileApp.Shared.Views.InitTabContext.SettingPage"
+             Style="{StaticResource  PageBase}">
+    <ContentPage.BindingContext>
+        <tabsSettingViewModels:SettingViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:LogColorConverter x:Key="LogColorConverter"/>
+            <Style TargetType="Label" BasedOn="{StaticResource LabelBase}">
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+            <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}"/>
+            <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}"/>
+            <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Frame >
+            <StackLayout VerticalOptions="CenterAndExpand" 
+                         HorizontalOptions="CenterAndExpand"
+                         Orientation="Vertical">
+                <Frame CornerRadius="6" 
+                       Margin="6"  
+                       BackgroundColor="DodgerBlue">
+                    <Image Source="currencylayerLogo.png" 
+                           Aspect="AspectFit"
+                           WidthRequest="100"/>
+                </Frame>
+                <Label Text="Enter yout API key" />
+                <Label Text="for sync data from server:" />
+                <Entry Margin="0,4,0,0" 
+                       Placeholder="API key" Text="{Binding ApiKey}"
+                       FontSize="15"/>
+                <Label Text="Enter time between calls(s) in minutes:" />
+                <StackLayout Orientation="Vertical" 
+                             VerticalOptions="Center" 
+                             HorizontalOptions="Center">
+                    <Label Text="{Binding Time}" 
+                           VerticalTextAlignment="Center" 
+                           HorizontalTextAlignment="Center"/>
+                    <Stepper Minimum="1" 
+                             Increment="1"
+                             Maximum="60" 
+                             Value="{Binding Time}"
+                             />
+                </StackLayout>
+                <Button Text="Set" 
+                        Command="{Binding SaveCommand}"
+                        Margin="5"/>
+                <Label Text="{Binding Message.Text}" 
+                       TextColor="{Binding Message.Color,Converter={StaticResource LogColorConverter}}"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

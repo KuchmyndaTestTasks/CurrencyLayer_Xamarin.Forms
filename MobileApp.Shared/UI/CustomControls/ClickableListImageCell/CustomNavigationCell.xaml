@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Shared.UI.CustomControls.ClickableListImageCell.CustomNavigationCell">
+  <ContentView.Content>
+      <Grid HorizontalOptions="FillAndExpand">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="55"/>
+              <RowDefinition Height="1"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="50"/>
+              <ColumnDefinition/>
+          </Grid.ColumnDefinitions>
+          <Image 
+              Aspect="AspectFit"
+              x:Name="Image"
+              Grid.Column="0"
+              Margin="4"/>
+          <Label HeightRequest="55"
+                 FontSize="18"
+                 x:Name="Label"
+                 VerticalTextAlignment="Center"
+                 Margin="4"
+                 Grid.Column="1"
+                 VerticalOptions="Center"/>
+          <StackLayout Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="DarkGray"/>
+      </Grid>
+    </ContentView.Content>
+</ContentView>

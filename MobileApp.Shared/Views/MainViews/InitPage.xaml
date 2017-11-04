@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:initTabContext1="clr-namespace:MobileApp.Shared.Views.InitTabContext;assembly=MobileApp.Shared"
+             x:Class="MobileApp.Shared.Views.MainViews.InitPage"
+            Style="{StaticResource TabPageBase}">
+    <initTabContext1:SettingPage Title="Main"/>
+    <initTabContext1:CurrencySelectorPage Title="Curencies"/>
+</TabbedPage>

@@ -1,11 +1,7 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using MobileApp.Shared;
 
 namespace MobileApp.Droid
 {
@@ -20,7 +16,7 @@ namespace MobileApp.Droid
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
-			LoadApplication (new MobileApp.App ());
+			LoadApplication (new App ());
 		}
 	}
 }
