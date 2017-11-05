@@ -8,8 +8,10 @@ namespace MobileApp.Shared.Global
     {
         public static void RedirectTo(this Application app, Page newPage, bool isNavigated = true)
         {
-            app.MainPage = isNavigated ? new NavigationPage(newPage) : newPage;
+            Device.BeginInvokeOnMainThread(
+                () => { app.MainPage = isNavigated ? new NavigationPage(newPage) : newPage; });
         }
+
 
         public static Stream GetEmbeddedResource(this Application app, string path)
         {

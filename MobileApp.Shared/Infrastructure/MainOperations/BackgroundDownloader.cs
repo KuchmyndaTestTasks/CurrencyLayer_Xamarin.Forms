@@ -60,16 +60,17 @@ namespace MobileApp.Shared.Infrastructure.MainOperations
                     Logger.SetLogMessage(MainLogMessages.EmptyHistory, Logger.Color.Red);
                 else
                 {
-                    Task.Run(() => dataManager.Save(historicalData));
+                    dataManager.Save(historicalData);
                     OnUpdateEvent();
-                    CurrencyLayerApplication.ThreadSleep(60 * Settings.Instance.TimeBetweenCalls);
                 }
 
                 if (historicalData != null)
                 {
                     CurrencyLayerApplication.HistoricalData = historicalData;
                     CurrencyLayerApplication.ThreadSleep(4);
+                    OnUpdateEvent();
                 }
+                CurrencyLayerApplication.ThreadSleep(60 * Settings.Instance.TimeBetweenCalls);
             }
         }
 

@@ -9,6 +9,7 @@ namespace MobileApp.Shared.ViewModels.Tabs_SettingViewModels
         {
             ResetState();
             Action = Save;
+            Time = 1;
         }
 
         #region <Fields>

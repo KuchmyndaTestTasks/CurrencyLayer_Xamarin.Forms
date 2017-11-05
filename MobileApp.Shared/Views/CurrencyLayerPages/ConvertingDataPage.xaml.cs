@@ -20,8 +20,11 @@ namespace MobileApp.Shared.Views.CurrencyLayerPages
 	    protected override void OnAppearing()
 	    {
 	        base.OnAppearing();
-	        var vm = (ExchangeDataViewModel)BindingContext;
-            vm.Execute();
+	        Task.Run(() =>
+	        {
+	            var vm = (ExchangeDataViewModel) BindingContext;
+	            vm.Execute();
+	        });
 	    }
 	}
 }

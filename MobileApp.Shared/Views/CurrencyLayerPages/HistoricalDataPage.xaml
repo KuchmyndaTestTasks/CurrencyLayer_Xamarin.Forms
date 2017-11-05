@@ -25,20 +25,22 @@
     <ContentPage.Content>
         <Frame Margin="20">
             <StackLayout HorizontalOptions="CenterAndExpand" 
-                             VerticalOptions="Center" Orientation="Vertical">
+                             VerticalOptions="Center" 
+                         Orientation="Vertical">
+                <Label Text="{Binding Description}"></Label>
                 <ScrollView Orientation="Horizontal"
-                            HeightRequest="500"
-                            >
+                            HeightRequest="500">
                     <forms:ChartView BackgroundColor="White"
-                                     WidthRequest="700" Chart="{Binding Chart}">
-                    </forms:ChartView>
+                                     WidthRequest="700" 
+                                     Chart="{Binding Chart}"/>
                 </ScrollView>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="Selected currencies:"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" 
-                            WidthRequest="100"/>
+                            WidthRequest="50"/>
                     <Label Text="/" />
                     <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" 
-                            WidthRequest="100"/>
+                            WidthRequest="50"/>
                 </StackLayout>
             </StackLayout>
         </Frame>

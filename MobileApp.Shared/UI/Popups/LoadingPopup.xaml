@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              x:Class="MobileApp.Shared.UI.Popups.LoadingPopup"
-             BackgroundImage="background.png" CloseWhenBackgroundIsClicked="False" IsAnimating="True">
+             BackgroundColor="DodgerBlue" CloseWhenBackgroundIsClicked="False" IsAnimating="True">
     <pages:PopupPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}"/>

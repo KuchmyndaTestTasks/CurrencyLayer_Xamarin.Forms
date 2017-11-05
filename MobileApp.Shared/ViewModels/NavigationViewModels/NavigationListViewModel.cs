@@ -1,5 +1,7 @@
 ﻿using System.Windows.Input;
 using MobileApp.Shared.Abstractions;
+using MobileApp.Shared.Infrastructure;
+using MobileApp.Shared.Views;
 using MobileApp.Shared.Views.CurrencyLayerPages;
 using MobileApp.Shared.Views.NavigationPage;
 using Xamarin.Forms;
@@ -102,8 +104,9 @@ namespace MobileApp.Shared.ViewModels.NavigationViewModels
         /// <param name="page"></param>
         private void PutPageToNavDrawer(Page page)
         {
-            _drawer.Detail = new NavigationPage(page);
+            //CurrencyLayerApplication.RedirectTo(new NavigationDrawer(false) {Detail = new NavigationPage(page), IsPresented = false}, false);
             _drawer.IsPresented = false;
+            _drawer.Detail = new NavigationPage(page);
         }
 
         #endregion

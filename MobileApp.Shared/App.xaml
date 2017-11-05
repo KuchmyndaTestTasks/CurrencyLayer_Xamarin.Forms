@@ -5,10 +5,10 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="PageBase" TargetType="ContentPage">
-                <Setter Property="BackgroundImage" Value="background.png"/>
+                <Setter Property="BackgroundColor" Value="CornflowerBlue"/>
             </Style>
             <Style x:Key="TabPageBase" TargetType="TabbedPage">
-                <Setter Property="BackgroundImage" Value="background.png"/>
+                <Setter Property="BackgroundColor" Value="White"/>
             </Style>
             <Style TargetType="Entry" x:Key="EntryBase" >
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
@@ -31,6 +31,7 @@
                 <Setter Property="Padding" Value="6"/>
                 <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
                 <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="HasShadow" Value="True"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

@@ -102,9 +102,9 @@ namespace MobileApp.Shared.Infrastructure
             }
         }
 
-        public static void RedirectTo(Page page,bool isAnimated = true)
+        public static void RedirectTo(Page page,bool isNavigated=true)
         {
-            Application.Current.RedirectTo(page, isAnimated);
+            Application.Current.RedirectTo(page, isNavigated);
         }
         public static void CallPopup(PopupPage page)
         {

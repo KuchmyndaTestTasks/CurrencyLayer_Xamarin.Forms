@@ -28,14 +28,14 @@
                          VerticalOptions="CenterAndExpand">
                 <Label Text="Converting currencies:" 
                        HorizontalTextAlignment="Center"/>
-                <ListView 
-                          HorizontalOptions="CenterAndExpand"
+                <ListView HorizontalOptions="CenterAndExpand"
                           VerticalOptions="CenterAndExpand"
                           HeightRequest="300"
                           WidthRequest="250"
                           SeparatorVisibility="Default"
-                          ItemsSource="{Binding ExchangeModels}"
-                          >
+                          IsEnabled="False"
+                          IsGroupingEnabled="False"
+                          ItemsSource="{Binding ExchangeModels}">
                     <ListView.ItemTemplate>
                             <DataTemplate>
                             <ViewCell>

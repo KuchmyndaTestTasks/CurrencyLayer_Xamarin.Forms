@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:clickableListImageCell="clr-namespace:MobileApp.Shared.UI.CustomControls.ClickableListImageCell;assembly=MobileApp.Shared"
              x:Class="MobileApp.Shared.Views.NavigationPage.NavigationDrawerList"
-             Title="Master">
+             Title="Master"
+             BackgroundColor="White">
     <StackLayout Orientation="Vertical"
                VerticalOptions="StartAndExpand">
         <Grid>
@@ -51,8 +52,9 @@
                 <clickableListImageCell:CustomNavigationCell Text="Exchange Data"  
                                                                ImageSource="exchange.png"
                                                                TapCommand="{Binding ExchangeDataRedirector}"/>
-                <clickableListImageCell:CustomNavigationCell Text="Setting"  
+                <!--<clickableListImageCell:CustomNavigationCell Text="Setting"  
                                                                ImageSource="settings.png"/>
+            -->
             </StackLayout>
         </Grid>
 

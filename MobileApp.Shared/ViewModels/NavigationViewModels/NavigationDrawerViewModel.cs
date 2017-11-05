@@ -25,6 +25,7 @@ namespace MobileApp.Shared.ViewModels.NavigationViewModels
         public void InitializePage()
         {
             _navigationListViewModel.CurrencyDataRedirector.Execute(null);
+           
         }
 
         #endregion

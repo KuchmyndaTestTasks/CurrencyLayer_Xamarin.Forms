@@ -7,10 +7,10 @@ namespace MobileApp.Shared.Views.NavigationPage
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NavigationDrawer : MasterDetailPage
-    {
+    {NavigationDrawerViewModel context;
         public NavigationDrawer()
         {
-            var context = new NavigationDrawerViewModel(this);
+            context = new NavigationDrawerViewModel(this);
             BindingContext = context;
             InitializeComponent();
             context.InitializePage();

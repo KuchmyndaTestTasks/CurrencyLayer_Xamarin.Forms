@@ -1,4 +1,5 @@
-﻿using MobileApp.Shared.ViewModels.MainViewModels;
+﻿using System.Threading.Tasks;
+using MobileApp.Shared.ViewModels.MainViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,8 +15,11 @@ namespace MobileApp.Shared.Views.CurrencyLayerPages
 	    protected override void OnAppearing()
 	    {
 	        base.OnAppearing();
-	        var vm = (HistoricalDataViewModel)BindingContext;
-	        vm.Execute();
+	        Task.Run(() =>
+	        {
+	            var vm = (HistoricalDataViewModel) BindingContext;
+	            vm.Execute();
+	        });
 	    }
     }
 }

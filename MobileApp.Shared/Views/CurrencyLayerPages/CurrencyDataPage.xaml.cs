@@ -25,7 +25,7 @@ namespace MobileApp.Shared.Views.CurrencyLayerPages
 	    protected override void OnAppearing()
 	    {
 	        base.OnAppearing();
-            context.Execute();
+	        Task.Run(() => context.Execute());
 	    }
 	}
 }

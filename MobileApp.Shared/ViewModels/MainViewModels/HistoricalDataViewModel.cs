@@ -10,6 +10,8 @@ using MobileApp.Shared.Infrastructure.MainOperations;
 using MobileApp.Shared.Models;
 using MobileApp.Shared.UI.Popups;
 using SkiaSharp;
+using Xamarin.Forms;
+using Entry = Microcharts.Entry;
 
 namespace MobileApp.Shared.ViewModels.MainViewModels
 {
@@ -147,16 +149,24 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
                 return;
             Description = $"{_currencyModelFrom.Code}/{_currencyModelTo.Code}";
             var entries = new List<Entry>();
+
+            #region Colors & randoms
+
             Random random = new Random(DateTime.Now.Millisecond);
+            Color[] colors = {Color.Red, Color.CadetBlue, Color.DarkGreen, Color.CornflowerBlue,Color.DimGray};
+
+            #endregion
+
             foreach (var model in _historicalData)
             {
                 var value = (float) (model.Value.Currencies[_currencyModelFrom.Code] /
                                      model.Value.Currencies[_currencyModelTo.Code]);
+                var color = colors[random.Next(colors.Length)];
                 entries.Add(new Entry(value)
                 {
                     Label = model.Key.ToString("dd/MM/yyyy"),
                     ValueLabel = value.ToString(),
-                    Color = new SKColor((byte) random.Next(255), (byte) random.Next(255), (byte) random.Next(255))
+                    Color = new SKColor((byte) (color.R*255), (byte) (color.G * 255), (byte) (color.B * 255))
                 });
             }
             Chart = new LineChart()
