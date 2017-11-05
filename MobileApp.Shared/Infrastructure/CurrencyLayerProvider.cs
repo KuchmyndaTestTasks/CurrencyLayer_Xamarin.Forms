@@ -113,7 +113,7 @@ namespace MobileApp.Shared.Infrastructure
                 }
                 return result;
             }
-            catch
+            catch(Exception ex)
             {
                 ErrorLog = MainLogMessages.NotAvailableInternetMessage;
                 return null;

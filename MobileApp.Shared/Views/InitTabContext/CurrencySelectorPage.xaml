@@ -19,50 +19,66 @@
             <Style TargetType="Entry" BasedOn="{StaticResource EntryBase}"/>
             <Style TargetType="Button" BasedOn="{StaticResource ButtonBase}"/>
             <Style TargetType="Frame" BasedOn="{StaticResource FrameBase}"/>
-          </ResourceDictionary>
+        </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
         <Frame  Margin="0,40,0,40">
             <StackLayout Orientation="Vertical" 
                      VerticalOptions="CenterAndExpand" 
                      HorizontalOptions="CenterAndExpand">
-                <Label>Selected currencies:</Label>
-                <ListView WidthRequest="100" ItemsSource="{Binding SelectedCurrencies,Mode=OneWay, 
+                <StackLayout x:Name="MainLayout">
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="CenterAndExpand">
+                        <Label>Selected currencies:</Label>
+                        <ListView WidthRequest="100" 
+                                  HeightRequest="300" ItemsSource="{Binding SelectedCurrencies,Mode=OneWay, 
                                         Converter={StaticResource CurrencyModelsHeaderConverter}}">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <Label TextColor="DodgerBlue" Text="{Binding}"/>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-                <Label Text="{Binding Message.Text}" 
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Label TextColor="DodgerBlue" Text="{Binding}"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <Label Text="{Binding Message.Text}" 
                        FontSize="12" 
                        TextColor="{Binding Message.Color, Converter={StaticResource LogColorConverter}}"/>
-                <StackLayout Orientation="Horizontal" 
-                         HorizontalOptions="CenterAndExpand"                         
-                         VerticalOptions="CenterAndExpand">
-                    <Image WidthRequest="30" 
-                       HeightRequest="30" 
-                       Aspect="AspectFit" 
-                       Source="find.png"/>
-                    <Entry WidthRequest="200" Text="{Binding SearchExpression}" HorizontalOptions="Fill"/>
-                </StackLayout>
-                <Label WidthRequest="200" FontSize="10" TextColor="DodgerBlue">After typing in search, a picker filters data automaticaly. Pick item below(only 2-7 currencies).</Label>
-                <Picker WidthRequest="50" SelectedItem="{Binding SelectedCurrency,
+                       
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" 
+                                 VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Horizontal" 
+                                     HorizontalOptions="CenterAndExpand"                         
+                                     VerticalOptions="CenterAndExpand">
+                            <Image WidthRequest="30" 
+                                   HeightRequest="30" 
+                                   Aspect="AspectFit" 
+                                   Source="find.png"/>
+                            <Entry WidthRequest="200" Text="{Binding SearchExpression}" HorizontalOptions="Fill"/>
+                        </StackLayout>
+                        <Label WidthRequest="200" FontSize="10" TextColor="DodgerBlue">After typing in search, a picker filters data automaticaly. Pick item below(only 2-7 currencies).</Label>
+                        <Picker WidthRequest="50" SelectedItem="{Binding SelectedCurrency,
                                     Converter={StaticResource CurrencyModelHeaderConverter}}" 
                     ItemsSource="{Binding FilteredCurrencyModels, 
                                         Mode=OneWay, 
                                         Converter={StaticResource CurrencyModelsHeaderConverter}}"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout WidthRequest="150" HorizontalOptions="CenterAndExpand">
                 <Button Text="Clear" 
-                    Command="{Binding ClearCommand}"
-                    BackgroundColor="DarkRed"
-                    TextColor="WhiteSmoke"
-                    Margin="5"/>
+                            Command="{Binding ClearCommand}"
+                            BackgroundColor="DarkRed"
+                            TextColor="WhiteSmoke"
+                            Margin="5"
+                        />
                 <Button Text="Set" 
-                    Command="{Binding SaveCommand}"
-                    Margin="5"/>
+                            Command="{Binding SaveCommand}"
+                            Margin="5"
+                        WidthRequest="150"/>
+                </StackLayout>
             </StackLayout>
         </Frame>
     </ContentPage.Content>

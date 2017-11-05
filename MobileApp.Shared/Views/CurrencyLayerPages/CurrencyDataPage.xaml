@@ -22,9 +22,10 @@
                 <Label Text="Swipe"/>
                 <Frame Padding="0"
                        CornerRadius="10">
-                    <ScrollView Orientation="Horizontal"
+                    <ScrollView Orientation="Both"
                                 VerticalOptions="CenterAndExpand" 
                                 HorizontalOptions="CenterAndExpand"
+                                
                                 BindingContext="{x:Reference CurrencyTable}"
                                 HeightRequest="{Binding Height}">
                         <Grid x:Name="CurrencyTable" 

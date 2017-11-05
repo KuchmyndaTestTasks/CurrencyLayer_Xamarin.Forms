@@ -61,7 +61,6 @@ namespace MobileApp.Shared.Infrastructure.MainOperations
                 else
                 {
                     dataManager.Save(historicalData);
-                    OnUpdateEvent();
                 }
 
                 if (historicalData != null)

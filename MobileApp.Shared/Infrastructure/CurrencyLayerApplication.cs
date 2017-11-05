@@ -23,19 +23,13 @@ namespace MobileApp.Shared.Infrastructure
         {
             RefreshModels();
             Settings.Read();
-            Task.Run(() =>
-            {
-                while (true)
-                {
-                    var instance = Settings.Instance;
-                    //Checks is application prepared for using
-                    var res = CurrencyModels != null && HistoricalData != null && CurrencyModels.Any() &&
-                              HistoricalData.Any()
-                              && !string.IsNullOrEmpty(instance.ApiKey);
-                    instance.IsConfigured = res;
-                    ThreadSleep(2);
-                }
-            });
+            var instance = Settings.Instance;
+            //Checks is application prepared for using
+            var res = CurrencyModels != null && HistoricalData != null && CurrencyModels.Any() &&
+                      HistoricalData.Any()
+                      && !string.IsNullOrEmpty(instance.ApiKey);
+            instance.IsConfigured = res;
+            ThreadSleep(2);
         }
 
         #region <Fields>

@@ -28,19 +28,25 @@
                              VerticalOptions="Center" 
                          Orientation="Vertical">
                 <Label Text="{Binding Description}"></Label>
+                <StackLayout x:Name="MainLayout">
                 <ScrollView Orientation="Horizontal"
                             HeightRequest="500">
                     <forms:ChartView BackgroundColor="White"
                                      WidthRequest="700" 
                                      Chart="{Binding Chart}"/>
                 </ScrollView>
-                <Label Text="Selected currencies:"/>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" 
+                <StackLayout Orientation="Vertical" 
+                             VerticalOptions="CenterAndExpand" 
+                             HorizontalOptions="CenterAndExpand">
+                    <Label Text="Selected currencies:"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelFrom,Converter={StaticResource CurrentModelConverter}}" 
                             WidthRequest="50"/>
-                    <Label Text="/" />
-                    <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" 
+                        <Label Text="/" />
+                        <Picker ItemsSource="{Binding CurrencyModels,Converter={StaticResource CurrencyConverterCollection}}" SelectedItem="{Binding CurrencyModelTo,Converter={StaticResource CurrentModelConverter}}" 
                             WidthRequest="50"/>
+                    </StackLayout>
+                </StackLayout>
                 </StackLayout>
             </StackLayout>
         </Frame>
