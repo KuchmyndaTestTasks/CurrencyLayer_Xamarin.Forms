@@ -19,12 +19,12 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
     {
         public HistoricalDataViewModel()
         {
-            BackgroundDownloader.UpdateEvent += Execute;
+            BackgroundDownloader.UpdateEvent += Update;
         }
 
         ~HistoricalDataViewModel()
         {
-            BackgroundDownloader.UpdateEvent -= Execute;
+            BackgroundDownloader.UpdateEvent -= Update;
         }
 
         #region <Fields>
@@ -196,19 +196,24 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        public void Execute()
+        public void Update()
         {
             Task.Run(() =>
             {
                 if (!Settings.Instance.IsConfigured) return;
                 var popup = new LoadingPopup();
                 CurrencyLayerApplication.CallPopup(popup);
-                Initialize();
-                CheckSelectedModels();
-                InitializeChart();
+                Execute();
                 CurrencyLayerApplication.ThreadSleep(1);
                 CurrencyLayerApplication.ClosePopup(popup);
             });
+        }
+
+        public void Execute()
+        {
+            Initialize();
+            CheckSelectedModels();
+            InitializeChart();
         }
 
         /// <summary>

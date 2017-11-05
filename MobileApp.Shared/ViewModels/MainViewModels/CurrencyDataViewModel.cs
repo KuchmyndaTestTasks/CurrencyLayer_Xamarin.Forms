@@ -21,12 +21,12 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         public CurrencyDataViewModel(Grid grid) : base()
         {
             _grid = grid;
-            BackgroundDownloader.UpdateEvent += Execute;            
+            BackgroundDownloader.UpdateEvent += Update;            
         }
 
         ~CurrencyDataViewModel()
         {
-            BackgroundDownloader.UpdateEvent -= Execute;
+            BackgroundDownloader.UpdateEvent -= Update;
         }
 
         #region <Fields>
@@ -48,11 +48,6 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
 
 
         /// <summary>
-        /// Property for blocking UI or etc
-        /// </summary>
-        private bool _isEnabled;
-
-        /// <summary>
         /// Real-Time ratings of currencies from API/from local DB in Offline-mode
         /// </summary>
         ApiCurrencyModel _liveCurrencyModel;
@@ -60,16 +55,7 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         #endregion
 
         #region <Properties>
-
-        public bool IsLoading
-        {
-            get { return _isEnabled; }
-            set
-            {
-                _isEnabled = value;
-                OnPropertyChanged();
-            }
-        }
+        
 
         #endregion
 
@@ -102,20 +88,25 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        public void Execute()
+        public void Update()
         {
             Task.Run(() =>
             {
                 if (!Settings.Instance.IsConfigured) return;
                 var popup = new LoadingPopup();
                 CurrencyLayerApplication.CallPopup(popup);
-                Initialize();
-                Calculation();
-                CurrencyLayerApplication.InMainThread(InitializeGrid);
+                Execute();
                 CurrencyLayerApplication.ThreadSleep(1);
                 CurrencyLayerApplication.ClosePopup(popup);
             });
 
+        }
+
+        public void Execute()
+        {
+            Initialize();
+            Calculation();
+            CurrencyLayerApplication.InMainThread(InitializeGrid);
         }
 
         /// <summary>

@@ -20,12 +20,12 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         public ExchangeDataViewModel()
         {
             _currencyValue = 1;
-            BackgroundDownloader.UpdateEvent += Execute;
+            BackgroundDownloader.UpdateEvent += Update;
         }
 
         ~ExchangeDataViewModel()
         {
-            BackgroundDownloader.UpdateEvent -= Execute;
+            BackgroundDownloader.UpdateEvent -= Update;
         }
 
         #region <Fields>
@@ -137,19 +137,24 @@ namespace MobileApp.Shared.ViewModels.MainViewModels
         /// <summary>
         /// Executes main task.
         /// </summary>
-        public void Execute()
+        public void Update()
         {
-            Task.Run(() =>
+            Task.Run((Action)(() =>
             {
 
                 if (!Settings.Instance.IsConfigured) return;
                 var popup = new LoadingPopup();
                 CurrencyLayerApplication.CallPopup(popup);
-                Initialize();
-                Calculation();
+                this.Execute();
                 CurrencyLayerApplication.ThreadSleep(1);
                 CurrencyLayerApplication.ClosePopup(popup);
-            });
+            }));
+        }
+
+        public void Execute()
+        {
+            Initialize();
+            Calculation();
         }
 
         /// <summary>
